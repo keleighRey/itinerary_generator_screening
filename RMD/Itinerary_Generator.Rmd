@@ -14,7 +14,7 @@ params:
       team_3: "Meredith/Brian"
       team_4: "Wyndle/Archer"
       print_team: 1
-      overnights: FALSE
+      overnights: TRUE
       hotel_coords: "hotels.csv"
       added_drive_times_day_end: FALSE
 ---
@@ -166,7 +166,8 @@ file.path.s=file.path(here::here(),
           
 file.save<-paste(file.path.s,"/",params$trip_name,".csv",sep = "")
 
-write.csv(home,file.save,row.names = FALSE)
+if(!params$added_drive_times_day_end){
+  write.csv(home,file.save,row.names = FALSE)}
 
 
 #add the times to get home
