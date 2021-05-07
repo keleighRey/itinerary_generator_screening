@@ -1,0 +1,81 @@
+"miles","time.65.mins","STATUS","SH_SITE_ID","SH_NAME","SH_DESC","SH_LATITUDE","SH_LONGITUDE","team","date","order","hike","location","total_num_sites","time.hrs"
+0,0,NA,"HOME",NA,NA,42.680982,-73.696676,1,2020-08-18,0,NA,"42.680982 , -73.696676",6,0
+163,195,"department interest","03-WOLC-4.0","Wolcott Creek","off cemetery st; short walk.",43.22166,-76.8129,1,2020-08-18,1,"","43.22166 , -76.8129",6,3.243
+5,6,"Reference","03-LTLC-1.0","Little Creek","Church St",43.2840004,-76.7809982,1,2020-08-18,2,"","43.2840004 , -76.7809982",6,0.092
+2,2,"department interest","03-REDR-2.6","Red Creek","Younglove Rd. Bridge  Just downstream",43.3,-76.77,1,2020-08-18,3,"","43.3 , -76.77",6,0.025
+3,4,"Unassessed","03-BLSC-1.7","Blind Sodus Creek","crossing on King Rd.",43.31565,-76.723458,1,2020-08-18,4,"","43.31565 , -76.723458",6,0.052
+1,2,"department interest","03-LONT_T74_1-0.1","Voights Creek","s fancher st bridge; may be dry.",43.31506,-76.70656,1,2020-08-18,5,"","43.31506 , -76.70656",6,0.017
+0,0,NA,"HOME",NA,NA,43.46204,-76.48994,1,2020-08-19,0,NA,"43.46204 , -76.48994",8,0
+22,27,"Probabilistic","03-MUDC-0.6","Mud Creek","downstream of Weaver Rd 0.3 miles",43.6680717,-76.1557693,1,2020-08-19,1,"","43.6680717 , -76.1557693",8,0.44
+5,5,"Probabilistic","03-LIND-6.8","Lindsey Creek","downstream sand rd bridge",43.6811676,-76.0763779,1,2020-08-19,2,"","43.6811676 , -76.0763779",8,0.081
+3,3,"Unassessed","03-SKIN_T5-0.2","Unnamed Tributary To Skinner Creek","downstream of the cr 90 bridge crossing.",43.71098,-76.05319,1,2020-08-19,3,"","43.71098 , -76.05319",8,0.047
+2,2,"Reference","03-SKIN_T4-2.6","Trib to Skinner Creek","Van Wormer Rd",43.6987,-76.0288773,1,2020-08-19,4,"","43.6987 , -76.0288773",8,0.03
+4,5,"Reference","03-BARA-11.5","Bear Creek","Brown Rd",43.7360687,-75.972641,1,2020-08-19,5,"","43.7360687 , -75.972641",8,0.076
+1,2,"Probabilistic","03-RAYS-5.0","Raystone Creek","downstream of cr92 intersection with brown rd and sharp rd.",43.7490692,-75.9646988,1,2020-08-19,6,"","43.7490692 , -75.9646988",8,0.02
+4,5,"Reference","03-RAYS-9.1","Raystone Creek","CR 95",43.713501,-75.9155502,1,2020-08-19,7,"","43.713501 , -75.9155502",8,0.07
+0,0,NA,"HOME",NA,NA,43.97948,-75.94723,1,2020-08-20,0,NA,"43.97948 , -75.94723",7,0
+11,13,"Unassessed","03-HRTB-2.2","Hart Brook","us 11.",43.83825,-76.015454,1,2020-08-20,1,"","43.83825 , -76.015454",7,0.207
+24,28,"Long Term Trend","03-CHMO-11.4","Chaumont River","Zang Rd. bridge",44.1749992,-76.0155563,1,2020-08-20,2,"","44.1749992 , -76.0155563",7,0.466
+10,12,"Long Term Trend/department interest","03-HOCR-0.1","Horse Creek","E Main st. bridge. downstream of salt pile.",44.0659409,-76.1284103,1,2020-08-20,3,"","44.0659409 , -76.1284103",7,0.188
+1,1,"Long Term Trend/department interest","03-HOCR-0.5","Horse Creek","1000 ft DS of Morris Tract Rd. Alt locations at Morris T. Rd or US of salt pile.",44.0684776,-76.1242752,1,2020-08-20,4,"","44.0684776 , -76.1242752",7,0.005
+6,7,"department interest","03-CHMO-6.2","Chaumont River","upstream caroline st.",44.139534,-76.067711,1,2020-08-20,5,"","44.139534 , -76.067711",7,0.113
+6,8,"department interest","03-HRSE-1.0","","",44.0662689,-76.1283035,1,2020-08-20,6,"","44.0662689 , -76.1283035",7,0.118
+0,0,NA,"HOME",NA,NA,42.680982,-73.696676,2,2020-08-18,0,NA,"42.680982 , -73.696676",5,0
+157,188,"Probabilistic/dept interest","03-REDR-15.1","Red Creek","upstream bacon rd bridge. possibly low gradient.",43.1843834,-76.7082672,2,2020-08-18,1,"","43.1843834 , -76.7082672",5,3.129
+5,6,"department interest","03-REDR-9.6","Red Creek","off south st; short walk.",43.246453,-76.720313,2,2020-08-18,2,"","43.246453 , -76.720313",5,0.087
+5,6,"Probabilistic/department interest","03-STRL-12.5","Sterling Creek","down bike trail 0.4 miles  and across field 0.1 miles. Likely low gradient.",43.2585907,-76.6313934,2,2020-08-18,3,"","43.2585907 , -76.6313934",5,0.091
+6,7,"Long Term Trend/dept interest","03-STRL-4.3","Sterling Creek","Sutterby Rd bridge; 10m above. Likely low gradient.",43.3347054,-76.6529922,2,2020-08-18,4,"","43.3347054 , -76.6529922",5,0.108
+0,0,NA,"HOME",NA,NA,43.46204,-76.48994,2,2020-08-19,0,NA,"43.46204 , -76.48994",8,0
+16,19,"Probabilistic","03-LSAM-11.2","Little Salmon River","off rt 69 0.2 miles",43.4273491,-76.1872177,2,2020-08-19,1,"yes","43.4273491 , -76.1872177",8,0.308
+5,6,"Probabilistic","03-SAGE-4.2","Sage Creek","just off Minckler Rd. May be low gradient.",43.48312,-76.2247314,2,2020-08-19,2,"yes","43.48312 , -76.2247314",8,0.086
+3,3,"Long Term Trend","03-LSAM-1.9","Little Salmon River","20 m upstream of Co Rt. 16 bridge",43.5116692,-76.2533264,2,2020-08-19,3,"","43.5116692 , -76.2533264",8,0.049
+6,7,"department interest","03-GRND_N-0.3","North Branch Grindstone Creek ","Walk 1000 ft down rr tracks to stream. Alt loc upstream at Rt 11 (43.4909, -76.1329). Sample only if low grad.",43.4921608,-76.1443329,2,2020-08-19,4,"","43.4921608 , -76.1443329",8,0.113
+4,4,"department interest","03-LGRN-1.3","Little Grindstone Creek","at Salisbury rd. Sample only if low grad.",43.5313454,-76.1721115,2,2020-08-19,5,"","43.5313454 , -76.1721115",8,0.061
+5,5,"Long Term Trend","03-SALM-7.8","Salmon River","20 m above Lehigh Rd. bridge (County Rt. 2A)",43.5499992,-76.0944366,2,2020-08-19,6,"","43.5499992 , -76.0944366",8,0.082
+15,18,"Reference","03-MAD-2.5","Mad River","Otto Mills Dr; immed. below suspension bridge",43.5988884,-75.8190002,2,2020-08-19,7,"","43.5988884 , -75.8190002",8,0.284
+0,0,NA,"HOME",NA,NA,43.97948,-75.94723,2,2020-08-20,0,NA,"43.97948 , -75.94723",7,0
+19,22,"WAVE","03-LSTN-1.0","Little Stony Creek","bridge on el dorado rd",43.8021011,-76.2117004,2,2020-08-20,1,"","43.8021011 , -76.2117004",7,0.36
+5,6,"Long Term Trend","03-SAND-2.7","Sandy Creek","75 m below Rt. 3 bridge",43.7441483,-76.1857224,2,2020-08-20,2,"","43.7441483 , -76.1857224",7,0.084
+3,4,"Long Term Trend","03-SSAN-6.3","South Sandy Creek","10 m above Joslyn St. bridge",43.7369385,-76.1322327,2,2020-08-20,3,"","43.7369385 , -76.1322327",7,0.054
+7,8,"Probabilistic","03-SSAN-14.1","South Sandy Creek","50m below Rte 189 bridge",43.7763901,-76.0180588,2,2020-08-20,4,"","43.7763901 , -76.0180588",7,0.126
+2,2,"Reference","03-SAND_T11-1.5","Trib to Sandy Creek","200 ft upstream Lawrence Rd",43.7960014,-76,2,2020-08-20,5,"","43.7960014 , -76",7,0.033
+10,12,"Probabilistic","03-GULS-10.4","Gulf Stream","off CR 194, above conf with denning creek",43.8202782,-75.80896,2,2020-08-20,6,"","43.8202782 , -75.80896",7,0.194
+0,0,NA,"HOME",NA,NA,42.680982,-73.696676,3,2020-08-18,0,NA,"42.680982 , -73.696676",6,0
+167,201,"Unassessed/department interest","03-BEEK-4.5","Beaver Creek","lummisville rd. Low Gradient.",43.243124,-76.899616,3,2020-08-18,1,"","43.243124 , -76.899616",6,3.334
+4,5,"Unassessed","03-WSECN-0.9","Second Creek","red mill rd.",43.2361,-76.9754,3,2020-08-18,2,"","43.2361 , -76.9754",6,0.077
+2,3,"department interest","03-FRST-1.3","first Creek","upstream morely rd.",43.25448,-77.001905,3,2020-08-18,4,"","43.25448 , -77.001905",6,0.037
+2,2,"Unassessed","03-WMAXW-0.5","Maxwell Creek","upstream of lake rd.",43.26459,-77.02496,3,2020-08-18,5,"","43.26459 , -77.02496",6,0.027
+5,6,"Probabilistic","03-LONT_T90-3.0","Unnamed Tributary to Lake Ontario","downstream of N Centenary Rd., might be dry",43.2591248,-77.1114883,3,2020-08-18,6,"","43.2591248 , -77.1114883",6,0.087
+0,0,NA,"HOME",NA,NA,43.08762,-77.61675,3,2020-08-19,0,NA,"43.08762 , -77.61675",7,0
+32,39,"Probabilistic","03-ORCH_T28-2.1","Unnamed Tributary To Oak Orchard Creek","upstream lockport rd.",43.0980721,-78.2499924,3,2020-08-19,1,"","43.0980721 , -78.2499924",7,0.64
+10,12,"department interest","03-ORCH-21.6","Oak Orchard Creek","Martin Rd bridge; 100m upstream",43.19,-78.39,3,2020-08-19,2,"","43.19 , -78.39",7,0.19
+8,10,"Unassessed","03-JNSN-2.0","Johnson Creek","upstream county line rd/cr 269. Low gradient.",43.289331,-78.463862,3,2020-08-19,3,"","43.289331 , -78.463862",7,0.156
+11,13,"Unassessed","03-KEGC-0.7","Keg Creek","upstream hess rd.",43.345251,-78.649458,3,2020-08-19,4,"","43.345251 , -78.649458",7,0.202
+11,13,"Unassessed","03-ETEL_T1-0.5","Unnamed Tributary To East Branch Twelvemile Creek","sr 18.",43.306984,-78.84737,3,2020-08-19,5,"","43.306984 , -78.84737",7,0.206
+9,11,"Long Term Trend","03-EMIL-7.5","Eighteenmile Creek","200 m below Jacques Rd.",43.2513885,-78.6983337,3,2020-08-19,6,"","43.2513885 , -78.6983337",7,0.169
+0,0,NA,"HOME",NA,NA,43.08762,-77.61675,3,2020-08-20,0,NA,"43.08762 , -77.61675",7,0
+29,35,"Unassessed","03-LONT_T135-0.6","Unnamed Tributary to Lake Ontario","upstream lakeshore rd; possible low gradient",43.363266,-78.039438,3,2020-08-20,1,"","43.363266 , -78.039438",7,0.572
+4,5,"Reference","03-BEAG_T2-3.1","Trib to Bald Eagle Creek","South of SR 18. Possibly Low Gradient reference.",43.3170013,-78.0670013,3,2020-08-20,2,"","43.3170013 , -78.0670013",7,0.07
+7,8,"Unassessed","03-YANT-1.4","Yanty Creek","downstream state rt. 211/Moscow Rd bridge.",43.350429,-77.946245,3,2020-08-20,3,"","43.350429 , -77.946245",7,0.13
+3,4,"Long Term Trend","03-SNDY-5.8","Sandy Creek","10 m below Brick Schoolhouse Rd",43.3137894,-77.954277,3,2020-08-20,4,"","43.3137894 , -77.954277",7,0.051
+5,6,"Unassessed","03-BRSH-4.6","Brush Creek","ny 260/walker lake ontario rd.",43.325857,-77.856979,3,2020-08-20,5,"","43.325857 , -77.856979",7,0.099
+2,2,"Unassessed","03-WSTC-1.5","West Creek","state rt. 260/walker lake ontario rd.",43.30418,-77.857742,3,2020-08-20,6,"","43.30418 , -77.857742",7,0.03
+0,0,NA,"HOME",NA,NA,42.680982,-73.696676,4,2020-08-18,0,NA,"42.680982 , -73.696676",6,0
+189,227,"Probabilistic/WAVE","03-WWHIO-1.5","White Brook","0.5 mi down bike trail from Pannel Rd side.",43.0599403,-77.3858719,4,2020-08-18,1,"","43.0599403 , -77.3858719",6,3.777
+16,19,"WAVE","03-WMLLO-0.8","Mill Creek","cr 101.",43.2734,-77.3143,4,2020-08-18,2,"","43.2734 , -77.3143",6,0.304
+9,10,"WAVE","03-LONT_T101-0.1","Unnammed trib to Lake Ontario","upstream lake rd.",43.2552,-77.4715,4,2020-08-18,3,"","43.2552 , -77.4715",6,0.16
+9,11,"Long Term Trend","03-IRON-10.2","Irondequoit Creek","20 m below Panorama Terrace bridge",43.1304016,-77.4950409,4,2020-08-18,4,"","43.1304016 , -77.4950409",6,0.174
+3,3,"","03-THOM-0.7","","",43.108181,-77.4633026,4,2020-08-18,5,"","43.108181 , -77.4633026",6,0.044
+0,0,NA,"HOME",NA,NA,43.08762,-77.61675,4,2020-08-19,0,NA,"43.08762 , -77.61675",6,0
+33,40,"Unassessed","03-MSHC-2.8","Marsh Creek","upstream sawyer rd.",43.351089,-78.15988,4,2020-08-19,1,"","43.351089 , -78.15988",6,0.658
+18,21,"Long Term Trend","03-GHIL-1.5","Golden Hill Creek","60 m downstream of Lower Lake Rd",43.3656082,-78.4977188,4,2020-08-19,2,"","43.3656082 , -78.4977188",6,0.34
+8,9,"Probabilistic/ Long Term Trend","03-JOHN-9.1","Johnson Creek","30 m upstream of Blood Rd. bridge",43.3352814,-78.3590698,4,2020-08-19,3,"","43.3352814 , -78.3590698",6,0.146
+4,5,"department interest","03-ORCH-9.3","Oak Orchard Creek","100 m below Town Line Rd. bridg",43.3,-78.31,4,2020-08-19,4,"","43.3 , -78.31",6,0.069
+6,7,"Probabilistic","03-FICR-5.3","Fish Creek","around 0.1 mi east of shell rd",43.2246208,-78.3236465,4,2020-08-19,5,"","43.2246208 , -78.3236465",6,0.105
+0,0,NA,"HOME",NA,NA,43.08762,-77.61675,4,2020-08-20,0,NA,"43.08762 , -77.61675",6,0
+18,22,"Unassessed","03-OTSC-0.8","Otis Creek","state rt. 215/lawrence Rd.",43.276979,-77.850047,4,2020-08-20,1,"","43.276979 , -77.850047",6,0.352
+3,4,"Probabilistic","03-BROK-4.7","Brockport Creek","0.2 mi us of Lawton Rd",43.2610855,-77.8959198,4,2020-08-20,2,"","43.2610855 , -77.8959198",6,0.051
+6,7,"department interest","03-SNDY_E-5.2","E. Br. Sandy Cr.","Monroe-Orleans county line Rd./CR 63, Underneath bridge ",43.24,-78,4,2020-08-20,3,"","43.24 , -78",6,0.109
+4,4,"Long Term Trend","03-SNDY_E-9.0","E. Br. Sandy Cr.","South Holley Rd.
+15m  downstream of bridge",43.19944,-78.0261078,4,2020-08-20,4,"","43.19944 , -78.0261078",6,0.062
+12,14,"Probabilistic","03-NRUP-13.0","Northrup Creek","upstream sr259/s union st bridge",43.1687622,-77.8050308,4,2020-08-20,5,"","43.1687622 , -77.8050308",6,0.227

@@ -1,0 +1,70 @@
+RAS_Name,Survey_Name,STATUS,Justification,SH_SITE_ID,SH_DESC,SH_LATITUDE,SH_LONGITUDE,SH_COUNTY,SH_FIPS_CDE,SH_NAME
+SCREENING,RIBS_Scr,Long Term Trend,,12-ALPL-16.1,Below Route 67,42.9745,-74.0199,SARATOGA,91,Alplaus Kill
+SCREENING,RIBS_Scr,Long Term Trend,,12-BATV-10.1,"10 m below Co. Rt. 12 bridge, South St.",42.30278,-74.2725,GREENE,39,Batavia Kill
+SCREENING,RIBS_Scr,Long Term Trend,,12-BRIM-0.5,West Ames Rd. bridge,42.83972,-74.61,MONTGOMERY,57,Brimstone Creek
+SCREENING,RIBS_Scr,Long Term Trend,,12-CAJO-5.1,40 m above McEwan Rd. bridge,42.87611,-74.60333,MONTGOMERY,57,Canajoharie Creek
+SCREENING,RIBS_Scr,Long Term Trend,,12-CAYA-4.7,"40 m above Rt. 334 bridge, 1.9 mi. below STP",42.98667,-74.43027,FULTON,35,Cayadutta Creek
+SCREENING,RIBS_Scr,Long Term Trend,,12-CANE-0.5,20 m above Rt. 5 bridge,43.00583,-74.74167,HERKIMER,43,East Canada Creek
+SCREENING,RIBS_Scr,Long Term Trend,,12-MATT-0.4,20 m below O'Neil Rd.culverts,43.02028,-74.37527,FULTON,35,Matthew Creek
+SCREENING,RIBS_Scr,Long Term Trend,,12-MOHK-136.0,150 yds. above River Rd. bridge,43.33944,-75.36583,ONEIDA,65,Mohawk River
+SCREENING,RIBS_Scr,Long Term Trend,,12-ORSK-0.9,30 m below Utica St. bridge,43.15556,-75.33167,ONEIDA,65,Oriskany Creek
+SCREENING,RIBS_Scr,Long Term Trend,,12-POEN-1.9,Campbell Rd.; 250 m above culverts opp. BJs/OffMax,42.8075,-73.99333,SCHENECTADY,93,Poentic Kill
+SCREENING,RIBS_Scr,Long Term Trend,,12-SAUQ-1.7,end of Greenman Ave; Farm & Family Ctr.parking lot,43.11306,-75.29444,ONEIDA,65,Sauquoit Creek
+SCREENING,RIBS_Scr,Long Term Trend,,12-SIXM-1.6,60 m below Rickmyer Rd. bridge,43.21139,-75.3825,ONEIDA,65,Six Mile Creek
+SCREENING,RIBS_Scr,Long Term Trend,,12-CANW-20.3,Above Rte 200 bridge,43.21868,-75.0576,HERKIMER,43,West Canada Creek
+SCREENING,RIBS_Scr,Long Term Trend,,12-SCHO-79.0,100 m above Deming Rd. bridge,42.21639,-74.24277,GREENE,39,Schoharie Creek
+SCREENING,RIBS_Scr,Long Term Trend,,12-MOHK-124.0,50 m below Floyd Ave. bridge,43.21778,-75.43166,ONEIDA,65,Mohawk River
+SCREENING,RIBS_Scr,Multiplate,,12-MOHK-14.8,Red Buoy #52 South of Knolls,42.81117,-73.85236,SCHENECTADY,93,Mohawk River
+SCREENING,RIBS_Scr,Multiplate,,12-MOHK-79.5,"green buoy 459, below Lock 17",43.03778,-74.84055,HERKIMER,43,Mohawk River
+SCREENING,RIBS_Scr,Multiplate,,12-MOHK-49.4,"green buoy 277, below Rt. 30A bridge",42.95028,-74.36972,MONTGOMERY,57,Mohawk River
+SCREENING,RIBS_Scr,Multiplate,,12-MOHK-1.5,"20 m above Rt. 32 and RR bridges, float",42.77833,-73.69667,SARATOGA,91,Mohawk River
+SCREENING,RIBS_Scr,Multiplate,,12-MOHK-98.9,150 m below Dyke Rd. bridge,43.09056,-75.15778,HERKIMER,43,Mohawk River
+SCREENING,RIBS_Scr,Multiplate,,12-MOHK-112.4,0.5 miles below cr 32 bridge.,43.16156,-75.318202,ONEIDA,65,Mohawk River
+SCREENING,RIBS_Scr,Multiplate,,12-MOHK-44.4,"Rte 5S, at lock",42.9452,-74.2895,MONTGOMERY,57,Mohawk River
+SCREENING,RIBS_Scr,Multiplate,,12-MOHK-0.2,"20 m above abandoned RR bridge (Button Park), float",42.78646,-73.67959,SARATOGA,91,Mohawk River
+SCREENING,RIBS_Scr,Reference,,12-BEVK-2.5,5 m above beaver rd. bridge.,43.15306,-74.87944,HERKIMER,43,Beaver Creek
+SCREENING,RIBS_Scr,Reference,,12-BIGW-0.1,at haskell rd. bridge.,43.43743,-74.8309,HERKIMER,43,Big Brook
+SCREENING,RIBS_Scr,Reference,,12-LYMA-3.8,west ava rd. bridge.,43.41695,-75.50368,ONEIDA,65,Lyman Brook
+SCREENING,RIBS_Scr,Reference,,12-STRI-4.5,825 ft south off crill rd.,43.379,-75.309,ONEIDA,65,Stringer Brook
+SCREENING,RIBS_Scr,Reference,,12-STRI-0.3,15 m below rte 46 bridge.,43.34639,-75.36833,ONEIDA,65,Stringer Brook
+SCREENING,RIBS_Scr,Reference,,12-BATV_T10-3.7,se off cr 10. unnamed tributary to batavia kill (2).,42.345565,-74.281966,GREENE,39,Unnamed Tributary T10 to Batavia Kill 2
+SCREENING,RIBS_Scr,Reference,,12-BATV_T26-0.1,cr 56. unnamed tributary to batavia kill (5).,42.292032,-74.129358,GREENE,39,Unnamed Tributary T26 to Batavia Kill 5
+SCREENING,RIBS_Scr,Reference,,12-WESK_T5-0.1,cr 43.,42.499,-74.535,SCHOHARIE,95,Unnamed Tributary T5 to West Kill
+SCREENING,RIBS_Scr,Reference,,12-WINF-0.6,0.5 miles north off edick rd.,43.24,-74.684,FULTON,35,Windfall Creek
+SCREENING,RIBS_Scr,Reference,,12-CANW_S-6.3,mountain home rd.,43.39944,-74.74055,HAMILTON,41,South Branch Canada Creek
+SCREENING,RIBS_Scr,Reference,,12-CANW-41.1,above harvey bridge rd.,43.35444,-74.99805,HERKIMER,43,West Canada Creek
+,,Probabilistic,,12-CAYA-15.4,5 m above West State St. Ext. bridge,43.06778,-74.35806,FULTON,,Cayadutta Creek
+,,Probabilistic,,12-SCHO_T93_b-1.8,upstream of Clauverwie Rd,42.53298,-74.387244,,,Unnamed Tributary T93_b to Schoharie Creek
+,,Probabilistic,,12-CANW_T69-1.1,300 m off Rt 8,43.382669,-74.900615,,,Unnamed Tributary T69 to West Canada Creek
+,,Probabilistic,,12-FOX-1.1,100 m below Rte 30 bridge - at Fox Creek Park,42.67889,-74.30473,,,Fox Creek
+,,Probabilistic,,12-BATV-14.8,just off rt 23,42.295294,-74.349868,,,Batavia Kill
+,,Probabilistic,,12-DRCK-3.4,off Camroden Rd.,43.239825,-75.342237,,,Dry Creek
+,,Probabilistic,,12-OTSO_T3-1.2,upstream of Freysbush Rd.,42.919293,-74.692776,,,Unnamed Tributary T3 to Otstungo Creek
+,,Probabilistic,,12-MOHK_T59_1-3.0,upstream of Baldwin Rd,42.934113,-74.093519,,,Unnamed Tributary T59 to Mohawk
+,,Probabilistic,,12-SPRK-5.3,off powerhouse rd 400m,43.130203,-74.649373,,,Sprite Creek
+,,Probabilistic,,12-NMIL-13.9,@CR 91 bridge,43.2159,-75.1794,,,Ninemile Creek
+,,Probabilistic,,N/A,Below Rte 5 bridge,43.04,-74.99,,,West Canada Creek
+,,Probabilistic,,12-SCHO_T23-1.0,downstream of Youngs Corners Rd.,42.878114,-74.261566,,,Unnamed Tributary T23 to Schoharie Creek
+,,Probabilistic/PWL,,12-SPCK_T15_6-0.2,off jerseyfield rd. 1.3 km; PWL assess can be anywhere along the same stream if Probablistic site is unreachable.,43.22719,-74.786903,,,Unnamed Tributary of Tributary T15_6 to Spruce Creek
+,,Probabilistic,,12-WESC-14.6,100 m above West Creek Rd bridge,42.733247,-74.617944,,,West Creek
+,,WAVE,"WAVE 2014, last visited in 96, 12-WSHAK-0.1",12-SHAK-0.1,5 m above River Rd. bridge,42.77861,-73.79195,,,Shakers Creek
+,,WAVE,"WAVE 2012, last visited in 2005, 12-PLOT-0.2",12-PLOT-0.2,rt 5s bridge,42.84583,-74.0125,,,Plotter Kill
+,,WAVE,WAVE 2012 ,12-LCKS-0.1,Lock 7 park,42.8019,-73.848,,,"Lock 7, Trib to mohawk"
+,,WAVE,"WAVE 2017,12-ALPL_T11-2.1",12-ALPL_T11-2.1,Unnamed Trib to Aplaus kill,42.951982,-73.985737,,,Unnamed Tributary T11 To Alplaus Kill
+,,Long Term Trend/department interest,WQIP salt shed long-term trend,12-SCHU-5.3,30 upstream of Dunlap Rd bridge. Upstream of salt pile influence.,42.889896,-74.219497,,,South Chuctanunda Creek
+,,Long Term Trend/department interest,WQIP salt shed long-term trend,12-SCHU-4.8,"Behind Florida Town Court on Ft Hunter Rd. DS of salt pile influence. Alternate location behind residence at 6124 Rt 30 (knock for persmission); 42.8929, -74.2213.",42.893463,-74.224261,,,South Chuctanunda Creek
+,,department interest,Lots of Stormwater runoff directly from Route 146 in Clifton Park.   Recent roundabout installed and lots of new construction upstream.   NOV sent to DOT for discharge into the Dwass Kill.    Heavy traffic area and Dwass Kill is a class C(T) stream.,12-DWAS-7.2,ds of 146,42.86999,-73.81741,,,Dwaas Kill
+,,Unassessed,Unassessed,12-ASHC-2.8,at sr 8 bridge.,43.31827,-74.97597,,,Ash Creek
+,,Unassessed,Unassessed,12-BLRS-0.2,1.0 mile east off cr 47.,43.241043,-74.906346,,,Unnamed Tributary To Black Creek Reservoir
+,,Unassessed,Unassessed,12-CANW_T39-0.6,"PWL description: stream and tribs, above Newport water supply intake",43.205528,-75.022942,,,Unnamed Tributary  T39 to West Canada Creek
+,,Unassessed,Unassessed,12-MOYR_T2-0.1,cr 171; a trib was sampled by mistake. should have been moyer ck.,43.024833,-75.106771,,,Unnamed Tributary T2 to Moyer Creek
+,,Unassessed,Unassessed,12-SPIT-2.3,hart rd.,43.022427,-74.507897,,,Sprite Creek
+,,Unassessed,Unassessed,12-BARK-0.6,barker rd.,42.935398,-75.48748,,,Barker Creek
+,,Unassessed,Unassessed,12-WBECK-0.1,Plateau Mountain Rd.,42.186186,-74.189888,,,Becker Hollow
+,,Unassessed,Unassessed,12-RICW-0.4,smith rd.,42.652215,-74.624362,,,Unnamed Tributary To Richmondville Water Supply
+,,Unassessed,Unassessed,12-COBL-T3_2-2.8,"0.25 across farm field along field road, will need to ask for access. PWL description: stream and tribs, above Cobleskill Water Supply",42.660134,-74.441694,,,Unnamed Tributary T3 Cobleskill Creek
+,,Unassessed,Unassessed,12-SHAN-0.1,30 m above confluence with schoharie creek.,42.2067,-74.2075,,,Shanty Hollow Brook
+,,Unassessed,Unassessed,12-ALLN-1.8,PWL description: total length of selected tribs to Allen Brook,42.20993,-74.153927,,,Tribs to Allen Brook
+,,Unassessed,Unassessed,12-MOHK_T5-0.1,"PWL description: total length of selected tribs, from mouth to Lock 7",42.823154,-73.734912,,,Unnamed Tributary T5 to Mohawk River
+,,Unassessed,Unassessed,12-OTSO-1.1,100 m downstream of freysbush rd. (cr 79) bridge.,42.9268,-74.6969,,,Otstungo Creek
+,,Unassessed,Unassessed,12-VRKL-0.1,"PWL description: total length of selected tribs, Schdy to Pattersonville",42.886726,-74.052164,,,Verf Kill

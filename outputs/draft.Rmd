@@ -1,0 +1,380 @@
+---
+title: "Mohawk 2020 Itineraries"
+author: 'NYSDEC SMAS : Keleigh Reynolds'
+date: "7/1/2020"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(dplyr)
+library(knitr)
+library(flextable)
+#insert your file name, number of teams and days here
+
+file.df<-"mohawk_2020.csv"
+teams<-4
+days<-3
+trip_name<-"Mohawk_Screening"
+shipping<-data.frame("Location"= c("ALS Courier Service: The ALS address for drop-off is 23A Walker Way, Colonie, The door access code is 6215","Albany,24 Avis Dr, Latham, NY 12110"),"days"=c("Day 2 and 3","Day 1"))
+hab_number_start<-155
+
+
+#read in the raw data
+file.path=file.path(here::here(),
+          "data",
+          file.df)
+
+sites<-read.csv(file.path,stringsAsFactors = FALSE)
+
+
+#take out the blank ones
+sites<-sites %>% 
+  subset(!is.na(SH_LATITUDE))
+
+max.sites<-nrow(sites)
+
+```
+
+## Teams
+
+This trip has `r max.sites ` sites to visit total.
+
+There are `r teams ` teams in this sampling event.
+Each team will do `r max.sites/teams ` sites over `r days `days. So that's `r (max.sites/teams)/days ` sites per day per team.
+
+
+1-Gavin/Keleigh   
+2-Charlie/Leila  
+3- Brian/Meredith    
+4-Andrea/Dan   
+
+
+## Types of sites
+
+This is what the site breakdown looks like for the `r trip_name ` trip:
+
+```{r,message=FALSE,warning=FALSE}
+m.df<-sites %>% 
+  group_by(STATUS) %>% 
+  summarise(number=n())
+
+library(flextable)
+
+table.df<-function(df){
+  tab<-flextable(df) %>% 
+    autofit() %>% 
+    theme_vanilla()
+  return(tab)
+  }
+
+table.df(m.df)
+```
+Broken down by team:  
+```{r, echo = FALSE, warning= FALSE,message=FALSE}
+teams.df<-sites %>% 
+  group_by(team,STATUS) %>% 
+  summarise(number=n())
+
+tab<-table.df(teams.df)
+ tab<-merge_v(tab, j = ~ team)
+tab
+
+```
+
+
+```{r echo=FALSE,warning=FALSE,message=FALSE}
+
+#dist<-(dist*0.000621371)#this gets you miles between the points
+#now get travel time
+#dist<-(65/60)*dist#this assumes driving @ 65 mph, so it will be underestimate for short/non highway
+
+
+#clean up the sites table to get distances right.
+sites<-sites %>% 
+  group_by(team,date) %>% 
+  arrange(team,date,order)
+
+#insert home locations for each trip
+sites.try<-sites %>% 
+   group_by(team,date) %>%
+   summarise(order = first(order)) %>%
+   mutate(SH_LATITUDE = 42.680982, SH_LONGITUDE =-73.696676,SH_SITE_ID="HOME",order = 0) %>% 
+   bind_rows(sites, .) %>% 
+   arrange(team,date,order)
+
+#create data frame of the distances
+library(geosphere)
+dist<- as.data.frame(vapply(2:nrow(sites.try), FUN = function(i) {
+    distm(x = c(sites.try$SH_LONGITUDE[i], sites.try$SH_LATITUDE[i]),
+          y = c(sites.try$SH_LONGITUDE[i - 1], sites.try$SH_LATITUDE[i - 1]),
+          fun = distHaversine)
+  },
+  FUN.VALUE = NA_real_
+  ))
+
+#then change to miles and add time
+dist<-dist %>% 
+  rename("CTD"=`vapply(2:nrow(sites.try), FUN = function(i) {     distm(x = c(sites.try$SH_LONGITUDE[i], sites.try$SH_LATITUDE[i]), y = c(sites.try$SH_LONGITUDE[i - 1], sites.try$SH_LATITUDE[i - 1]), fun = distHaversine) }, FUN.VALUE = NA_real_)`)
+  
+dist$miles<-dist$CTD*0.000621371
+dist$time.65.mins<-(65/60)*dist$miles
+
+#add extra row to try and bind them #IT WORKED!!
+dist<-dist %>% 
+   summarise(CTD = last(CTD)) %>%
+   mutate(miles=0) %>% 
+   bind_rows(.,dist)
+
+new<-merge(dist,sites.try,by="row.names")
+
+new.df<-new %>% 
+  select(miles,time.65.mins,STATUS,SH_SITE_ID,SH_DESC,SH_LATITUDE,SH_LONGITUDE,team,date,order,hike)
+
+sites.df<-sites %>% 
+  mutate(location=paste(SH_LATITUDE,",",SH_LONGITUDE)) %>% 
+  select(team,date,order,SH_SITE_ID,location,Distance.from.Home.Base,Drive_time,total.trip.time,STATUS,hike) %>% 
+  group_by(team,date) %>% 
+  arrange(team,date,order) %>% 
+  mutate(total_num_sites=n())
+
+sites.df$total.trip.time=(0.75*sites.df$total_num_sites)+sites.df$Drive_time
+sites.df$date<-as.Date(sites.df$date,"%m/%d/%Y")
+
+new.df$date<-as.Date(new.df$date,"%m/%d/%Y")
+new.df<-new.df %>% 
+    mutate(location=paste(SH_LATITUDE,",",SH_LONGITUDE))
+new.df$time.65.mins<-as.numeric(new.df$time.65.mins)
+
+new.df<-new.df %>% 
+  as.data.frame() %>% 
+  group_by(team,date) %>% 
+  mutate(total_num_sites=n()) %>%
+  arrange(team,date,order)
+
+
+new.df$miles<-ifelse(new.df$SH_SITE_ID=="HOME",0,new.df$miles)
+new.df$time.65.mins<-ifelse(new.df$SH_SITE_ID=="HOME",0,new.df$time.65.mins)
+new.df$time.65.mins<-ceiling(new.df$time.65.mins)
+new.df$miles<-ceiling(new.df$miles)
+```
+
+```{r ft.align="left",warning=FALSE, echo=FALSE, results= 'asis'}
+sum.df<-new.df %>% 
+  select(team,date,time.65.mins,total_num_sites) %>% 
+  group_by(team,date) %>% 
+  summarise(total.drivng.time.hrs=sum(time.65.mins,na.rm = TRUE)/60,
+            sites.num=mean(total_num_sites)-1,
+            total.trip=(total.drivng.time.hrs+(sites.num*1.5)))
+sum.df$total.drivng.time.hrs<-ceiling(sum.df$total.drivng.time.hrs)
+sum.df$total.trip<-ceiling(sum.df$total.trip)
+
+sum.df<-sum.df %>% 
+  select(team,date,sites.num,total.trip) %>% 
+  rename("Sites (n)"=sites.num,
+         "Trip total (hrs)"=total.trip)
+
+tab<-table.df(sum.df)
+label=paste("Trip Totals (Estimated)")
+tab<-flextable::set_caption(tab,label)
+tab<-merge_v(tab, j = ~ team + date)
+tab<-fit_to_width(tab,max_width = 6)
+flextable::docx_value(tab)
+
+tab
+```
+\newpage
+
+## Itineraries
+
+Here are the intineraries.  Shipping Locations will be from `r length(shipping)` locations.
+
+First, basic trip information:
+
+```{r, echo = FALSE, warning= FALSE,message=FALSE}
+tab<-table.df(shipping)
+tab
+
+```
+
+```{r,ft.align="left",warning=FALSE, echo=FALSE, results= 'asis'}
+
+teams.l<-unique(sites.df$team)
+sort(teams.l,decreasing = FALSE)
+dates.l<-unique(sites.df$date)
+
+for (i in seq_along(teams.l)){
+  cat("  \n\n### Team: ",teams.l[i])
+  temp<-new.df[new.df$team %in% teams.l[i], ]
+  
+  for (i in seq_along(dates.l)){
+    temp.short<-temp[temp$date %in% dates.l[i], ]
+    
+    temp.short1<-temp.short %>% 
+      select(team,date,order,SH_SITE_ID,location,STATUS,hike) %>% 
+      rename("Team"=team,
+             "Date"=date,
+             "Order"=order,
+             "Site"=SH_SITE_ID,
+             "Lat/Long"=location,
+             "Type"=STATUS,
+             "Hike?"=hike)
+    
+  tab<-table.df(temp.short1)
+   label=paste(dates.l[i])
+   tab<-flextable::set_caption(tab,label)
+  tab<-merge_v(tab, j = ~ Team + Date)
+  tab<-fit_to_width(tab,max_width = 6)
+  flextable::docx_value(tab)
+  cat("  \n")
+  
+  temp.short2<-temp.short %>% 
+  select(team,date,order,SH_SITE_ID,miles,time.65.mins) %>% 
+  rename("Team"=team,
+         "Date"=date,
+         "Order"=order,
+         "Site"=SH_SITE_ID,
+         "miles to next"=miles,
+         "Time(mins)"=time.65.mins)
+
+tab<-table.df(temp.short2)
+label=paste("Driving Estimates: ",dates.l[i])
+tab<-flextable::set_caption(tab,label)
+tab<-merge_v(tab, j = ~ Team + Date)
+tab<-fit_to_width(tab,max_width = 6)
+flextable::docx_value(tab)
+cat("  \n")
+
+
+temp.short3<-temp.short[temp.short$date %in% dates.l[i], ] %>% 
+  select(team,date,order,SH_SITE_ID,SH_DESC) %>% 
+  rename("Team"=team,
+         "Date"=date,
+         "Order"=order,
+         "Site"=SH_SITE_ID,
+         "DESC"=SH_DESC)
+
+tab<-table.df(temp.short3)
+label=paste("Expanded Descriptions: ",dates.l[i])
+tab<-flextable::set_caption(tab,label)
+tab<-merge_v(tab, j = ~ Team + Date)
+tab<-fit_to_width(tab,max_width = 6)
+flextable::docx_value(tab)
+
+  
+  cat("  \n")
+  }}
+
+
+```
+
+```{r, include=FALSE, message=FALSE,warning=FALSE}
+#create the files for processing labels etc.
+
+#first create a folder for the trip
+file.path.out=file.path(here::here(),
+          "outputs",
+          trip_name)
+
+dir.create(trip_name)
+
+#create simple file for quick lookups for excel file #1
+short<-new.df %>% 
+  select(team,date,order,SH_SITE_ID,SH_LATITUDE,SH_LONGITUDE) %>% 
+  filter(SH_SITE_ID!="HOME")
+
+#labels
+#bugs
+bugs<-new.df %>% 
+  select(SH_SITE_ID,date) %>%
+  
+  rename("SITE_ID"=SH_SITE_ID,
+         "DATE"=date) %>% 
+  mutate(REP="REP: 1",SURVEY=trip_name)
+  
+bugs<-bugs[rep(seq_len(nrow(bugs)), each = 2), ]
+bugs$DATE<-format(bugs$DATE,"%m/%d/%Y")
+
+#HAB labels
+habr<-new.df %>% 
+  select(SH_SITE_ID) %>% 
+  filter(SH_SITE_ID!="HOME") %>% 
+  rename("SiteInfo"=SH_SITE_ID)
+
+habr<-habr[rep(seq_len(nrow(habr)), each = 2), ]
+
+i=nrow(habr)-1
+seq.hab=hab_number_start+i
+
+
+habr<-habr %>% 
+  ungroup() %>% 
+  mutate(Project="STREAM HABS SAMPLE",SITEID="BAS-LOC-RM:",SampleID=paste0("- _  _  _  _-20-R",seq(hab_number_start,seq.hab,1), sep = ""),Sample_Type=paste("RAW               BOTTLE 1 of ",sequence(rle(as.character(SiteInfo))$lengths)))
+
+
+
+```
+
+```{r, include=FALSE,message=FALSE,warning=FALSE}
+#write everything to files
+
+# Create a blank workbook
+library(openxlsx)
+OUT <- createWorkbook()#for lookups
+OUT_Chem<-createWorkbook()#for chem labels
+OUT2<-createWorkbook()#for all other labels
+
+############################################OUt
+# Add some sheets to the workbook
+
+addWorksheet(OUT,"simple_site_info")
+
+# Write the data to the sheets
+
+writeData(OUT, sheet = "simple_site_info", x = short)
+
+############################################OUT2
+addWorksheet(OUT2,"BUG_labels")
+addWorksheet(OUT2,"HAB_Raw_labels")
+addWorksheet(OUT2,"HAB_Scrape_labels")
+
+# Write the data to the sheets
+
+writeData(OUT2, sheet = "BUG_labels", x = bugs)
+writeData(OUT2, sheet = "HAB_Raw_labels", x = habr)
+writeData(OUT2, sheet = "HAB_Scrape_labels", x = habs)
+
+############################################OUT_Chem
+addWorksheet(OUT_Chem,"chem_labels")
+
+# Write the data to the sheets
+
+writeData(OUT_Chem, sheet = "chem_labels", x = chem)
+
+
+# Reorder worksheets
+#worksheetOrder(OUT) <- c(2,1,)
+
+# Export the files
+xlfile.path<-file.path(here::here(),
+          "outputs",
+          trip_name,paste(trip_name,".xlsx",sep = ""))
+
+xlfile.path.label<-file.path(here::here(),
+          "outputs",
+          trip_name,paste(trip_name,"OTHER_LABELS.xlsx",sep = ""))
+
+xlfile.path.label.chem<-file.path(here::here(),
+          "outputs",
+          trip_name,paste(trip_name,"_CHEM_LABELS.xlsx",sep = ""))
+
+saveWorkbook(OUT, xlfile.path)
+saveWorkbook(OUT2,xlfile.path.label)
+saveWorkbook(OUT_Chem,xlfile.path.lable.chem)
+
+```
+
+
+
+
+

@@ -1,0 +1,94 @@
+"team","date","order","STATUS","SH_SITE_ID","SH_NAME","SH_DESC","SH_LATITUDE","SH_LONGITUDE","time_to_site","miles_to_site"
+1,"9/15/2020",0,NA,"HOME",NA,NA,42.680982,-73.696676,NA,NA
+1,"9/15/2020",1,"Long Term Trend","01-YUGA-3.9","Cayuga Creek","200 m below rt. 277 bridge.",42.88396,-78.75498,2,2
+1,"9/15/2020",2,"Unassessed","01-SABO-0.2","Slate Bottom Creek","at sr 277 bridge.",42.8778,-78.75422,22,3
+1,"9/15/2020",3,"Long Term Trend","01-BUFC-2.2","Buffalo Creek","40 m below rt. 277 bridge at usgs gaging station.",42.85474,-78.75507,25,3
+1,"9/15/2020",4,"Long Term Trend","01-CAZE-1.6","Cazenovia Creek","80 m below parkside dr. bridge.",42.84589,-78.80645,39,3
+1,"9/15/2020",8,NA,"HOME_for_the_day",NA,NA,NA,NA,NA,NA
+1,"9/16/2020",0,NA,"HOME",NA,NA,42.680982,-73.696676,NA,NA
+1,"9/16/2020",1,"Long Term Trend/department interest","01-MANS-4.0","Mansfield Creek","Upstream of Toad Hollow Rd bridge. Downstream of salt influence.",42.33858073,-78.75722873,8,3
+1,"9/16/2020",2,"WAVE","01-MANS-5.4","Mansfield Creek","DS of Maples Rd. bridge. Upstream of salt influence.",42.33140673,-78.73568773,18,3
+1,"9/16/2020",3,"Long Term Trend/department interest","01-MANS-0.8","Mansfield Creek","100 m above scotts corners rd. bridge.",42.35545,-78.79346,30,3
+1,"9/16/2020",4,"Probabilistic","01-SILV_T8_1_1-1.0","Unnamed Trib to Silver Creek","off Mosher Rd.",42.44930573,-79.04752373,42,3
+1,"9/16/2020",5,"Reference","01-CWAY-14.5","Canadaway Creek","cr 312.",42.3672,-79.23686,50,3
+1,"9/16/2020",6,"Reference","01-CWAY-8.3","Canadaway Creek","50 m above shumla rd. bridge.",42.39059,-79.30079,56,3
+1,"9/16/2020",7,"Long Term Trend","01-CWAY-7.4","Canadaway Creek","10 m upstream of spoden rd. bridge.",42.40326,-79.30453,60,3
+1,"9/16/2020",8,NA,"HOME_for_the_day",NA,NA,NA,NA,NA,NA
+1,"9/17/2020",0,NA,"HOME",NA,NA,42.680982,-73.696676,NA,NA
+1,"9/17/2020",1,"Long Term Trend","01-ELLI-10.3","Ellicott Creek","80 m below sheridan dr. (rt. 324) bridge.",42.9788,-78.764,1,1
+1,"9/17/2020",2,"WAVE","01-WCAN_T5-1.8","Unnamed Tributary To Western Barge Canal","schoelles rd.",43.0519,-78.7516,16,3
+1,"9/17/2020",3,"Long Term Trend","01-TONA-19.6","Tonawanda Creek","300 m below rapids rd. bridge.",43.09333,-78.63639,26,3
+1,"9/17/2020",4,"Unassessed","01-TONA_T10-0.1","Unnamed Tributary To Tonawanda Creek","kelkenberg rd.",43.072778,-78.586294,45,3
+1,"9/17/2020",8,NA,"HOME_for_the_day",NA,NA,NA,NA,NA,NA
+2,"9/15/2020",0,NA,"HOME",NA,NA,42.680982,-73.696676,NA,NA
+2,"9/15/2020",1,"Long Term Trend/Unassessed / Needs Verification","01-YUGA-12.3","Cayuga Creek","at bowen rd.",42.88967,-78.64347,3,3
+2,"9/15/2020",2,"department interest","01-LBUF-2.5","Little Buffalo Creek","Williams St bridge.  Sample as low gradient and only if LG habitat present.",42.88139973,-78.60979673,19,3
+2,"9/15/2020",3,"Probabilistic","01-YUGA-26.0","Cayuga Creek","downstream of Folsomdale Rd.",42.82723773,-78.45003373,27,3
+2,"9/15/2020",4,"department interest","01-HUNE-5.1","Hunter Creek","Warner Hill Rd/rt 390 bridge.  Sample as low gradient and only if LG habitat present",42.72220073,-78.54140673,44,3
+2,"9/15/2020",5,"Probabilistic","01-CAZE_E_T9-1.5","Unnamed Trib to East Branch Cazenovia Creek","off Centerline Rd.",42.73498573,-78.57163373,53,3
+2,"9/15/2020",10,NA,"HOME_for_the_day",NA,NA,NA,NA,NA,NA
+2,"9/16/2020",0,NA,"HOME",NA,NA,42.680982,-73.696676,NA,NA
+2,"9/16/2020",1,"Unassessed","01-BLAS-0.1","Blasdell Creek","50 m upstream of lake erie; woodlawn beach state park.",42.79824,-78.85486,10,3
+2,"9/16/2020",2,"Unassessed","01-CLAR_N-0.1","North Branch Clear Creek","sisson hwy.",42.567116,-78.846825,21,3
+2,"9/16/2020",3,"department interest","01-CLAR_N-7.4","North Branch Clear Creek","marshfield rd. bridge.",42.54389,-78.85306,34,3
+2,"9/16/2020",4,"Long Term Trend","01-CATT-17.5","Cattaraugus Creek","100 m above rt. 39 (main st.) bridge.",42.46261,-78.93383,38,3
+2,"9/16/2020",5,"Probabilistic","01-CLAR-18.5","Clear Creek","off rt 39",42.49466373,-78.82008473,52,3
+2,"9/16/2020",6,"Probabilistic","01-CONN-2.5","Connoisarauley Creek","west connoisarauley rd. at old bridge location.",42.45,-78.73,57,3
+2,"9/16/2020",7,"Reference","01-SPOO-0.3","Spooner Creek","45 m above zoar valley rd. bridge.",42.48855,-78.72168,61,3
+2,"9/16/2020",8,"Probabilistic","01-TEEN-24.2","Eighteenmile Creek","190 m southwest off sr 391.",42.6,-78.72,66,3
+2,"9/16/2020",9,"Unassessed","01-PIPC-0.1","Pipe Creek","sr 240 bridge; 80 m above confluence w/w. br cazenovia ck.",42.69424,-78.68668,69,3
+2,"9/16/2020",10,NA,"HOME_for_the_day",NA,NA,NA,NA,NA,NA
+2,"9/17/2020",0,NA,"HOME",NA,NA,42.680982,-73.696676,NA,NA
+2,"9/17/2020",1,"PWL/WAVE","01-TWOM-0.4","Twomile Creek","5 m below fletcher rd. bridge.",43.0049,-78.9058,7,3
+2,"9/17/2020",2,"Probabilistic","01-SWYR-2.1","Sawyer Creek","off Niagara Falls Blvd",43.07216573,-78.85530373,14,3
+2,"9/17/2020",3,"Unassessed","01-GILL-0.3","Gill Creek","10 m above rte 384 bridge.",43.08287,-79.02538,33,3
+2,"9/17/2020",4,"Unassessed","01-FISN-2.4","Fish Creek","350 m west of upper mountain rd.",43.15813,-78.9798,46,3
+2,"9/17/2020",10,NA,"HOME_for_the_day",NA,NA,NA,NA,NA,NA
+3,"9/15/2020",0,NA,"HOME",NA,NA,42.680982,-73.696676,NA,NA
+3,"9/15/2020",1,"Probabilistic","01-HAMP-3.6","Hampton Brook","350 m north of keller rd.",42.67,-78.82,5,3
+3,"9/15/2020",2,"WAVE","01-PICR-1.3","Pike Creek","170 m east of cr 477.",42.6873,-78.9996,17,3
+3,"9/15/2020",3,"Unassessed","01-LSIS-2.4","Little Sister Creek","rte 5.",42.66954,-79.02777,32,3
+3,"9/15/2020",4,"Long Term Trend","01-BSIS-2.0","Big Sister Creek","20 m below rt. 5 bridge.",42.65706,-79.03609,37,3
+3,"9/15/2020",5,"Unassessed","01-BSIS-8.6","Big Sister Creek","between pontiac and versailles rd. bridge. split in stream.",42.62475,-78.96739,54,3
+3,"9/15/2020",10,NA,"HOME_for_the_day",NA,NA,NA,NA,NA,NA
+3,"9/16/2020",0,NA,"HOME",NA,NA,42.680982,-73.696676,NA,NA
+3,"9/16/2020",1,"Unassessed","01-LERI_T97-4.7","Unnamed tributary to Lake Erie","Rd crossing on Miller Rd.",42.21597473,-79.75892373,11,3
+3,"9/16/2020",2,"Long Term Trend","01-CHAU-0.4","Chautauqua Creek","50 m above rt. 5 bridge.",42.33696,-79.60059,13,3
+3,"9/16/2020",3,"department interest","01-LCHA-0.1","Little Chautauqua Creek","portage rd; walk down chautaugua to lcha.",42.30861,-79.57465,31,3
+3,"9/16/2020",4,"Reference","01-LCWY-4.2","Little Canadaway Creek","ellicott rd.",42.39667,-79.39471,41,3
+3,"9/16/2020",5,"Unassessed","01-VBUR-0.4","Van  Buren Bay Creek","150 m below van buren rd. crossing.",42.44742,-79.40407,55,3
+3,"9/16/2020",6,"Probabilistic","01-HYCK-1.6","Hyde Creek","Off Urban Rd.",42.48220073,-79.30549973,58,3
+3,"9/16/2020",7,"Unassessed","01-WLNT-8.2","Walnut Creek","20 m downstream of rte 39 bridge.",42.46848,-79.18062,63,3
+3,"9/16/2020",8,"Long Term Trend","01-SILV-0.3","Silver Creek","100 m below rt. 5 bridge.",42.54595,-79.16826,65,3
+3,"9/16/2020",9,"Long Term Trend","01-WLNT-0.1","Walnut Creek","100 m below rt. 5 bridge.",42.54562,-79.16882,67,3
+3,"9/16/2020",10,NA,"HOME_for_the_day",NA,NA,NA,NA,NA,NA
+3,"9/17/2020",0,NA,"HOME",NA,NA,42.680982,-73.696676,NA,NA
+3,"9/17/2020",1,"Probabilistic","01-TONA-27.6","Tonawanda Creek","off Kelkenberg Rd at river bend",43.08064173,-78.57346273,4,3
+3,"9/17/2020",2,"department interest","01-TONA-39.8","Tonawanda Creek","Off tonawanda creek rd. Sample as low gradient and only if LG habitat present. Alternate site at 43.083180, -78.499397 if not accessible.",43.08318073,-78.49939673,20,3
+3,"9/17/2020",3,"PWL/WAVE","01-WTONA_T21-0.3","Unnamed Tributary To Tonawanda Creek","upstream from housekneeht rd.",43.0295,-78.3938,29,3
+3,"9/17/2020",4,"PWL/WAVE","01-MURD-23.1","Murder Creek","bridge on ellinwood rd",42.96180073,-78.35329973,43,3
+3,"9/17/2020",10,NA,"HOME_for_the_day",NA,NA,NA,NA,NA,NA
+4,"9/15/2020",0,NA,"HOME",NA,NA,42.680982,-73.696676,NA,NA
+4,"9/15/2020",1,"department interest","01-CATT-64.4","Cattaraugus Creek","at east arcade rd. bridge.",42.5693,-78.34674,9,3
+4,"9/15/2020",2,"department interest","01-MKEY-0.1","Monkey Run Creek","15 m above rte 98 bridge.",42.55507,-78.39228,23,3
+4,"9/15/2020",3,"department interest","01-CATT-58.9","Cattaraugus Creek","40 m above water st. bridge.",42.53564,-78.41977,35,3
+4,"9/15/2020",4,"department interest","01-CLEA-0.1","Clear Creek","rte 39.",42.53415842,-78.42136874,48,3
+4,"9/15/2020",5,"Reference","01-BUFC-37.8","Buffalo Creek","100 m off cr 395.",42.64,-78.462,49,3
+4,"9/15/2020",10,NA,"HOME_for_the_day",NA,NA,NA,NA,NA,NA
+4,"9/16/2020",0,NA,"HOME",NA,NA,42.680982,-73.696676,NA,NA
+4,"9/16/2020",1,"department interest","01-CATT-36.9","Cattaraugus Creek","100 m below scoby hill rd. bridge; 300 m below dam.",42.48417,-78.70084,12,3
+4,"9/16/2020",2,"department interest","01-SRIG-0.1","Spring Brook","100 m above mouth; at mill st.",42.48084,-78.68415,24,3
+4,"9/16/2020",3,"department interest","01-SRIG-2.9","Spring Brook","70 m above maple ave. bridge.",42.51331,-78.66275,36,3
+4,"9/16/2020",4,"department interest","01-CATT-46.9","Cattaraugus Creek","400 m downstream of hake rd. bridge.",42.51262,-78.58609,47,3
+4,"9/16/2020",5,"Reference","01-GOON-3.2","Gooseneck Creek","cr 55.",42.453,-78.585,51,3
+4,"9/16/2020",6,"department interest","01-ELTO-4.2","Elton Creek","at rte 16 bridge.",42.48902882,-78.48524888,59,3
+4,"9/16/2020",7,"department interest","01-CAZE_E-6.3","East Branch Cazenovia Creek","Blakely rd/Blakely corners rd bridge. Sample as low gradient and only if LG habitat present",42.73345773,-78.59690373,62,3
+4,"9/16/2020",8,"Long Term Trend","01-CAZE_W-0.6","West Branch Cazenovia Creek","at jewett holmwood rd. bridge.",42.75429,-78.6514,64,3
+4,"9/16/2020",9,"Probabilistic","01-SMOK-2.9","Smoke Creek","sample from new development",42.77919273,-78.71674573,68,3
+4,"9/16/2020",10,NA,"HOME_for_the_day",NA,NA,NA,NA,NA,NA
+4,"9/17/2020",0,NA,"HOME",NA,NA,42.680982,-73.696676,NA,NA
+4,"9/17/2020",1,"Probabilistic","01-TONA-83.3","Tonawanda Creek","100 m above stroh rd. bridge.",42.88,-78.26,6,3
+4,"9/17/2020",2,"Probabilistic","01-TONA_T35_1-2.0","Unnamed Trib to Tonawanda Creek","0.2 mi off Dry Bridge Rd.",42.88733573,-78.21768073,15,3
+4,"9/17/2020",3,"Probabilistic","01-TONA-62.7","Tonawanda Creek","at abandoned bridge.",43.002696,-78.251967,28,3
+4,"9/17/2020",4,"Long Term Trend","01-TONA-65.8","Tonawanda Creek","5 m below lyon st. bridge.",43.00022,-78.19768,40,3
+4,"9/17/2020",10,NA,"HOME_for_the_day",NA,NA,NA,NA,NA,NA

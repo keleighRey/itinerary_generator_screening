@@ -1,0 +1,66 @@
+RAS_Name,Survey_Name,New site,EPA ID,STATUS,SH_SITE_ID,SH_BASIN,SH_LOCATION,SH_RIVMILE,SH_OLD_SITE_ID,SH_PREV_NAME,SH_STATION,SH_OLD_RIBS_ID,SH_DESC,SH_CITY_TOWN,SH_LATITUDE,SH_LONGITUDE,SH_COUNTY,SH_FIPS_CDE,SH_NAME,Drive_time,team,date,order,ObjectId,Distance from Home Base,shipping location,total trip time,hike,x,y
+,,,,department interest,12-DWAS-7.2,11,new,,,,,,ds of 146,,42.86999,-73.81741,,,Dwaas Kill,2,2,"7/14/2020, 6:00 AM",2,55,30,,,,-8217316.493,5292203.889
+,,Y, ,department interest,12-BLCR-19.3,12,,,,, ,,at Jerseyfield rd. Low Gradient. 3.8 sq mi drainage.,,43.26541,-74.778108, ,,Black Creek,,1,"7/16/2020, 6:00 AM",4,73,,,,,-8324260.905,5352457.606
+,,Y, ,department interest,12-HLVY-0.5,12,,,,, ,,at Jerseyfield rd. Low Gradient. 0.7 sq mi drainage. 2nd backup site to 12-BLCR-19.3.,,43.270874,-74.7779, ,,Hall Vly,,1,"7/16/2020, 6:00 AM",3,74,,,,,-8324237.751,5353292.937
+,,Y, ,department interest,12-STBR-1.0,12,,,,, ,,at Jerseyfield rd. Low Gradient. 1.5 sq mi drainage. Backup site to 12-BLCR-19.3.,,43.278951,-74.774874, ,,Stony Brook,,1,"7/16/2020, 6:00 AM",2,75,,,,,-8323900.898,5354527.878
+SCREENING,RIBS_Scr,N,,Long Term Trend,12-ALPL-16.1,12,ALPL,16.1,1,,,,Below Route 67,,42.9745,-74.0199,SARATOGA,91,Alplaus Kill,2,4,"7/14/2020, 6:00 AM",3,1,30,,,,-8239857.577,5308091.292
+SCREENING,RIBS_Scr,N,,Long Term Trend,12-BRIM-0.5,12,BRIM,3,,,,,West Ames Rd. bridge,,42.83972,-74.61,MONTGOMERY,57,Brimstone Creek,2.5,3,"7/14/2020, 6:00 AM",5,3,60,,,,-8305547.208,5287607.33
+SCREENING,RIBS_Scr,N,,Long Term Trend,12-CAJO-5.1,12,CAJO,4,,,,,40 m above McEwan Rd. bridge,,42.87611,-74.60333,MONTGOMERY,57,Canajoharie Creek,2.5,3,"7/14/2020, 6:00 AM",4,4,60,,,,-8304804.707,5293133.497
+SCREENING,RIBS_Scr,N,,Long Term Trend,12-CAYA-4.7,12,CAYA,2,,,,,"40 m above Rt. 334 bridge, 1.9 mi. below STP",,42.98667,-74.43027,FULTON,35,Cayadutta Creek,2.5,1,"7/14/2020, 6:00 AM",1,5,60,,,,-8285539.756,5309943.105
+SCREENING,RIBS_Scr,N,,Long Term Trend,12-CANE-0.5,12,CANE,5,,,,,20 m above Rt. 5 bridge,,43.00583,-74.74167,HERKIMER,43,East Canada Creek,5.5,3,"7/14/2020, 6:00 AM",2,6,60,,,,-8320204.645,5312859.274
+SCREENING,RIBS_Scr,N,,Long Term Trend,12-MATT-0.4,12,MATT,1,,,,,20 m below O'Neil Rd.culverts,,43.02028,-74.37527,FULTON,35,Matthew Creek,2.5,1,"7/14/2020, 6:00 AM",4,7,60,,,,-8279417.184,5315059.179
+SCREENING,RIBS_Scr,N,,Long Term Trend,12-POEN-1.9,12,POEN,2,,,,,Campbell Rd.; 250 m above culverts opp. BJs/OffMax,,42.8075,-73.99333,SCHENECTADY,93,Poentic Kill,2,2,"7/14/2020, 6:00 AM",3,10,30,,,,-8236899.818,5282717.133
+SCREENING,RIBS_Scr,N,,Long Term Trend,12-MOHK-136.0,12,MOHK,A,,,,,150 yds. above River Rd. bridge,,43.33944,-75.36583,ONEIDA,65,Mohawk River,5,1,"7/15/2020, 6:00 AM",2,8,100,,,,-8389685.819,5363781.624
+SCREENING,RIBS_Scr,N,,Long Term Trend,12-ORSK-0.9,12,ORSK,6,,,,,30 m below Utica St. bridge,,43.15556,-75.33167,ONEIDA,65,Oriskany Creek,5,4,"7/15/2020, 6:00 AM",2,9,100,,,,-8385883.145,5335679.719
+SCREENING,RIBS_Scr,N,,Long Term Trend,12-SAUQ-1.7,12,SAUQ,6,,,,,end of Greenman Ave; Farm & Family Ctr.parking lot,,43.11306,-75.29444,ONEIDA,65,Sauquoit Creek,5,3,"7/15/2020, 6:00 AM",5,11,100,,,,-8381738.72,5329196.595
+SCREENING,RIBS_Scr,N,,Long Term Trend,12-SIXM-1.6,12,SIXM,1,,,,,60 m below Rickmyer Rd. bridge,,43.21139,-75.3825,ONEIDA,65,Six Mile Creek,5,4,"7/15/2020, 6:00 AM",3,12,100,,,,-8391541.515,5344203.111
+SCREENING,RIBS_Scr,N,,Long Term Trend,12-CANW-20.3,12,CANW,4,,,,,Above Rte 200 bridge,,43.21868,-75.0576,HERKIMER,43,West Canada Creek,5,3,"7/15/2020, 6:00 AM",3,13,80,,,,-8355373.812,5345316.628
+SCREENING,RIBS_Scr,N,,Long Term Trend,12-MOHK-124.0,12,MOHK,1,,,,,50 m below Floyd Ave. bridge,,43.21778,-75.43166,ONEIDA,65,Mohawk River,5,4,"7/15/2020, 6:00 AM",4,15,100,,,,-8397013.981,5345179.15
+SCREENING,RIBS_Scr,N,,Long Term Trend,12-BATV-10.1,12,BATV,10,,,,,"10 m below Co. Rt. 12 bridge, South St.",,42.30278,-74.2725,GREENE,39,Batavia Kill,4,3,"7/16/2020, 6:00 AM",3,2,60,,,,-8267976.88,5206442.879
+SCREENING,RIBS_Scr,N,,Long Term Trend,12-SCHO-79.0,12,SCHO,10,,,,,100 m above Deming Rd. bridge,,42.21639,-74.24277,GREENE,39,Schoharie Creek,3,4,"7/16/2020, 6:00 AM",4,14,60,,,,-8264667.351,5193448.933
+,,Y,,Long Term Trend/department interest,12-SCHU-5.3,12,SCHU,5.3,,,,,30 upstream of Dunlap Rd bridge. Upstream of salt pile influence.,Florida,42.889896,-74.219497,,,South Chuctanunda Creek,2.5,1,"7/14/2020, 6:00 AM",5,53,30,,,,-8262076.613,5295227.883
+,,Y,,Long Term Trend/department interest,12-SCHU-4.8,12,SCHU,4.8,,,,,"Behind Florida Town Court on Ft Hunter Rd. DS of salt pile influence. Alternate location behind residence at 6124 Rt 30 (knock for persmission); 42.8929, -74.2213.",Florida,42.893463,-74.224261,,,South Chuctanunda Creek,2.5,1,"7/14/2020, 6:00 AM",6,54,30,,,,-8262606.939,5295769.862
+,,,22740625,Probabilistic,12-CAYA-15.4,12,CAYA,15.4,,,,,5 m above West State St. Ext. bridge,,43.06778,-74.35806,FULTON,,Cayadutta Creek,2.5,1,"7/14/2020, 6:00 AM",3,35,60,,,,-8277501.376,5322294.351
+,,,22745199,Probabilistic,12-OTSO_T3-1.2,12,new,,,,,,upstream of Freysbush Rd.,,42.919293,-74.692776,,,Unnamed Tributary T3 to Otstungo Creek,3.5,3,"7/14/2020, 6:00 AM",4,41,60,,,Yes,-8314761.79,5299695.476
+,,,22745049,Probabilistic,12-MOHK_T59_1-3.0,12,new,,,,,,upstream of Baldwin Rd,,42.934113,-74.093519,,,Unnamed Tributary T59 to Mohawk,2,4,"7/14/2020, 6:00 AM",2,42,30,,,,-8248052.806,5301948.545
+,,,3246862,Probabilistic,12-SCHO_T23-1.0,12,new,,,,,,downstream of Youngs Corners Rd.,,42.878114,-74.261566,,,Unnamed Tributary T23 to Schoharie Creek,2.5,4,"7/14/2020, 6:00 AM",1,46,30,,,,-8266759.713,5293437.918
+,,,22741005,Probabilistic,12-CANW_T69-1.1,12,new,,,,,,300 m off Rt 8,,43.382669,-74.900615,,,Unnamed Tributary T69 to West Canada Creek,5,2,"7/15/2020, 6:00 AM",3,37,80,,,Yes,-8337898.322,5370400.546
+,,,22743625,Probabilistic,12-DRCK-3.4,12,new,,,,,,off Camroden Rd.,,43.239825,-75.342237,,,Dry Creek,5,1,"7/15/2020, 6:00 AM",1,40,100,,,,-8387059.458,5348547.192
+,,,22742779,Probabilistic,12-NMIL-13.9,12,NMIL,13.9,,,,,@CR 91 bridge,,43.2159,-75.1794,,,Ninemile Creek,5,3,"7/15/2020, 6:00 AM",4,44,100,,,,-8368932.526,5344891.979
+,,,3246728,Probabilistic,12-SCHO_T93_b-1.8,12,new,,,,,,upstream of Clauverwie Rd,,42.53298,-74.387244,,,Unnamed Tributary T93_b to Schoharie Creek,4,3,"7/16/2020, 6:00 AM",1,36,60,,,Yes,-8280750.124,5241154.658
+,,,3246096,Probabilistic,12-FOX-1.1,12,FOX,1.1,,,,,100 m below Rte 30 bridge - at Fox Creek Park,,42.67889,-74.30473,,,Fox Creek,3.5,2,"7/16/2020, 6:00 AM",1,38,30,,,,-8271564.707,5263222.652
+,,,3247582,Probabilistic,12-BATV-14.8,12,new,,,,,,just off rt 23,,42.295294,-74.349868,,,Batavia Kill,3,4,"7/16/2020, 6:00 AM",5,39,60,,,,-8276589.446,5205316.203
+,,,22740369,Probabilistic,12-SPRK-5.3,12,new,,,,,,off powerhouse rd 400m,,43.130203,-74.649373,,,Sprite Creek,5.5,1,"7/16/2020, 6:00 AM",8,43,60,,,Yes,-8309930.19,5331811.117
+,,,3245934,Probabilistic,12-WESC-14.6,12,new,,,,,,100 m above West Creek Rd bridge,,42.733247,-74.617944,,,West Creek,3.5,2,"7/16/2020, 6:00 AM",4,48,60,,,Yes,-8306431.53,5271457.059
+,,,22739963,Probabilistic/PWL,12-SPCK_T15_6-0.2,12,new,,,,,,off jerseyfield rd. 1.3 km; PWL assess can be anywhere along the same stream if Probablistic site is unreachable.,,43.22719,-74.786903,,,Unnamed Tributary of Tributary T15_6 to Spruce Creek,5.5,1,"7/16/2020, 6:00 AM",5,47,80,,,Yes,-8325239.96,5346616.664
+SCREENING,RIBS_Scr,N,,Reference,12-BIGW-0.1,12,BIGW,1,,,,,at haskell rd. bridge.,,43.43743,-74.8309,HERKIMER,43,Big Brook,5,2,"7/15/2020, 6:00 AM",2,25,80,,,,-8330137.684,5378791.945
+SCREENING,RIBS_Scr,N,,Reference,12-LYMA-3.8,12,LYMA,1,,,,,west ava rd. bridge.,,43.41695,-75.50368,ONEIDA,65,Lyman Brook,5,1,"7/15/2020, 6:00 AM",5,26,100,,,,-8405031.211,5375652.768
+SCREENING,RIBS_Scr,N,,Reference,12-STRI-4.5,12,STRI,4.5,,,,,825 ft south off crill rd.,,43.379,-75.309,ONEIDA,65,Stringer Brook,5,1,"7/15/2020, 6:00 AM",4,27,100,,,,-8383359.532,5369838.591
+SCREENING,RIBS_Scr,N,,Reference,12-STRI-0.3,12,STRI,1,,,,,15 m below rte 46 bridge.,,43.34639,-75.36833,ONEIDA,65,Stringer Brook,5,1,"7/15/2020, 6:00 AM",3,28,100,,,,-8389964.118,5364845.442
+SCREENING,RIBS_Scr,N,,Reference,12-CANW_S-6.3,12,CANS,1,,,,,mountain home rd.,,43.39944,-74.74055,HAMILTON,41,South Branch Canada Creek,5,2,"7/15/2020, 6:00 AM",1,33,80,,,,-8320079.968,5372969.674
+SCREENING,RIBS_Scr,N,,Reference,12-CANW-41.1,12,CANW,2,,,,,above harvey bridge rd.,,43.35444,-74.99805,HERKIMER,43,West Canada Creek,5,2,"7/15/2020, 6:00 AM",5,34,80,,,,-8348744.736,5366077.785
+SCREENING,RIBS_Scr,N,,Reference,12-BEVK-2.5,12,BEVK,1,,,,,5 m above beaver rd. bridge.,,43.15306,-74.87944,HERKIMER,43,Beaver Creek,5.5,1,"7/16/2020, 6:00 AM",6,24,80,,,,-8335541.132,5335298.234
+SCREENING,RIBS_Scr,N,,Reference,12-BATV_T10-3.7,12,NSET,3.7,,,,,se off cr 10. unnamed tributary to batavia kill (2).,,42.345565,-74.281966,GREENE,39,Unnamed Tributary T10 to Batavia Kill 2,4,3,"7/16/2020, 6:00 AM",2,29,60,,,,-8269030.63,5212884.786
+SCREENING,RIBS_Scr,N,,Reference,12-BATV_T26-0.1,12,BATV,T-1,,,,,cr 56. unnamed tributary to batavia kill (5).,,42.292032,-74.129358,GREENE,39,Unnamed Tributary T26 to Batavia Kill 5,4,3,"7/16/2020, 6:00 AM",4,30,60,,,,-8252042.385,5204825.299
+SCREENING,RIBS_Scr,N,,Reference,12-WESK_T5-0.1,12,WESK,T-1,,,,,cr 43.,,42.499,-74.535,SCHOHARIE,95,Unnamed Tributary T5 to West Kill,4,2,"7/16/2020, 6:00 AM",2,31,60,,,,-8297198.246,5236022.798
+SCREENING,RIBS_Scr,N,,Reference,12-WINF-0.6,12,WINF,1,,,,,0.5 miles north off edick rd.,,43.24,-74.684,FULTON,35,Windfall Creek,5.5,1,"7/16/2020, 6:00 AM",7,32,80,,,,-8313784.85,5348573.934
+,,F,,Unassessed,12-SPIT-2.3,,,,,,,,hart rd.,,43.022427,-74.507897,,,Sprite Creek,5.5,1,"7/14/2020, 6:00 AM",2,60,60,,,,-8294181.154,5315386.088
+,,T,,Unassessed,12-MOHK_T5-0.1,,,,,,,,"PWL description: total length of selected tribs, from mouth to Lock 7",,42.823154,-73.734912,,,Unnamed Tributary T5 to Mohawk River,0,2,"7/14/2020, 6:00 AM",1,67,30,,,,-8208132.858,5285092.704
+,,F,,Unassessed,12-OTSO-1.1,,,,,,,,100 m downstream of freysbush rd. (cr 79) bridge.,,42.9268,-74.6969,,,Otstungo Creek,3.5,3,"7/14/2020, 6:00 AM",3,68,60,,,,-8315220.872,5300836.689
+,,T,,Unassessed,12-VRKL-0.1,,,,,,,,"PWL description: total length of selected tribs, Schdy to Pattersonville",,42.886726,-74.052164,,,Verf Kill,2.5,4,"7/14/2020, 6:00 AM",5,69,30,,,,-8243449.189,5294746.251
+,,F,,Unassessed,12-ASHC-2.8,,,,,,,,at sr 8 bridge.,,43.31827,-74.97597,,,Ash Creek,5,2,"7/15/2020, 6:00 AM",4,56,80,,,,-8346286.802,5360541.942
+,,F,,Unassessed,12-BLRS-0.2,,,,,,,,1.0 mile east off cr 47.,,43.241043,-74.906346,,,Unnamed Tributary To Black Creek Reservoir,4.5,3,"7/15/2020, 6:00 AM",1,57,80,,,,-8338536.294,5348733.314
+,,T,,Unassessed,12-CANW_T39-0.6,,,,,,,,"PWL description: stream and tribs, above Newport water supply intake",,43.205528,-75.022942,,,Unnamed Tributary  T39 to West Canada Creek,4.5,3,"7/15/2020, 6:00 AM",2,58,80,,,,-8351515.701,5343307.811
+,,F,,Unassessed,12-MOYR_T2-0.1,,,,,,,,cr 171; a trib was sampled by mistake. should have been moyer ck.,,43.024833,-75.106771,,,Unnamed Tributary T2 to Moyer Creek,4.5,4,"7/15/2020, 6:00 AM",1,59,80,,,,-8360847.503,5315752.447
+,,F,,Unassessed,12-BARK-0.6,,,,,,,,barker rd.,,42.935398,-75.48748,,,Barker Creek,5,4,"7/15/2020, 6:00 AM",5,61,100,,,,-8403227.835,5302143.928
+,,T,,Unassessed,12-WBECK-0.1,,,,,,,,Plateau Mountain Rd.,,42.186186,-74.189888,,,Becker Hollow,3,4,"7/16/2020, 6:00 AM",2,62,60,,,,-8258780.554,5188910.134
+,,F,,Unassessed,12-RICW-0.4,,,,,,,,smith rd.,,42.652215,-74.624362,,,Unnamed Tributary To Richmondville Water Supply,3.5,2,"7/16/2020, 6:00 AM",3,63,60,,,,-8307145.979,5259184.358
+,,T,,Unassessed,12-COBL-T3_2-2.8,,,,,,,,"0.25 across farm field along field road, will need to ask for access. PWL description: stream and tribs, above Cobleskill Water Supply",,42.660134,-74.441694,,,Unnamed Tributary T3 Cobleskill Creek,3.5,2,"7/16/2020, 6:00 AM",5,64,60,,,,-8286811.47,5260383.024
+,,F,,Unassessed,12-SHAN-0.1,,,,,,,,30 m above confluence with schoharie creek.,,42.2067,-74.2075,,,Shanty Hollow Brook,3,4,"7/16/2020, 6:00 AM",3,65,60,,,,-8260741.113,5191992.566
+,,T,,Unassessed,12-ALLN-1.8,,,,,,,,PWL description: total length of selected tribs to Allen Brook,,42.20993,-74.153927,,,Tribs to Allen Brook,3,4,"7/16/2020, 6:00 AM",1,66,60,,,yes,-8254777.394,5192477.997
+,,,,WAVE,12-SHAK-0.1,12,SHAK,0.1,,,,,5 m above River Rd. bridge,,42.77861,-73.79195,,,Shakers Creek,1.5,2,"7/14/2020, 6:00 AM",5,49,30,,,,-8214482.299,5278334.513
+,,,,WAVE,12-PLOT-0.2,12,PLOT,0.2,,,,,rt 5s bridge,,42.84583,-74.0125,,,Plotter Kill,2,3,"7/14/2020, 6:00 AM",1,50,30,,,,-8239033.812,5288534.964
+,,,,WAVE,12-LCKS-0.1,12,new,2.1,,,,,Lock 7 park,,42.8019,-73.848,,,"Lock 7, Trib to mohawk",1.5,2,"7/14/2020, 6:00 AM",4,51,30,,,,-8220721.756,5281867.452
+,,,,WAVE,12-ALPL_T11-2.1,12,APL_T11,2.1,,,,,Unnamed Trib to Aplaus kill,,42.951982,-73.985737,,,Unnamed Tributary T11 To Alplaus Kill,2,4,"7/14/2020, 6:00 AM",4,52,30,,,,-8236054.569,5304665.871
+,,,,,N/A,,,,,,,,,,,,,,,,,"7/15/2020, 6:00 AM",,72,,,,,-8347848.615,5318062.238
+,,,,,HOME,,,,,,,,,,,,,,,,,,,70,30,,,,-8208290.685,5260657.225

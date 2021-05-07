@@ -1,0 +1,62 @@
+Trip Name,Site_ID,NAME,Description,Survey,Latitude,Longitude,Frequency,Type,NOTES
+FINGER LAKES 9E Tributaries,07-SUKE-0.3,Sucker Brook,Western Boulevard ,Finger Lakes RAS,42.87800,-77.27800,"6 (5b, 1e)",low gradient,HUB
+FINGER LAKES 9E Tributaries,07-NAPL-2.9,Naples Creek,SR 245,Finger Lakes RAS,42.62600,-77.39000,"6 (5b, 1e)",kick ,HUB
+FINGER LAKES 9E Tributaries,07-WEST-7.3,West River,Williams St.,Finger Lakes RAS,42.70500,-77.27600,"6 (5b, 1e)",kick ,HUB
+FINGER LAKES 9E Tributaries,07-FALC-0.3,Fall Brook,SR 364,Finger Lakes RAS,42.87100,-77.25100,"6 (5b, 1e)",kick ,HUB
+FINGER LAKES 9E Tributaries,07-SGAR-2.5,Sugar Creek,County House Rd.,Finger Lakes RAS,42.62800,-77.15900,"6 (5b, 1e)",kick ,HUB
+FINGER LAKES 9E Tributaries,07-KUKA-2.4,Keuka Inlet,100 m below CR 8,Finger Lakes RAS,42.39600,-77.25600,"6 (5b, 1e)",kick ,HUB
+FINGER LAKES 9E Tributaries,07-EGGL-0.2,Eggleston Glen,SR 54,Finger Lakes RAS,42.51400,-77.10400,"6 (5b, 1e)",kick,HUB
+FINGER LAKES 9E Tributaries,07-WAGG-0.1,Wagener  Glen,West Lake Rd.,Finger Lakes RAS,42.53100,-77.15300,"6 (5b, 1e)",kick,HUB
+BLACK LAKE TRIBS,09-HAMM-1.9,Hammond Brook,"At CR 6 bridge/culvert, rest of stream to lake appears quite swampy.",Black Lake Tribs,44.45390,-75.67880,4,chem only,
+BLACK LAKE TRIBS,09-BLAH-4.2,Black Creek (alternative),At CR 3,Black Lake Tribs,44.42056,-75.69417,4,chem only,
+BLACK LAKE TRIBS,09-INDN-2.0,Indian River (alternative),"at old mill site on CR 8, above Brasie Corners-Rossie Rd bridge",Black Lake Tribs,44.37917,-75.65528,4,chem only,
+BLACK LAKE TRIBS,09-FSCR-1.0,Fish Creek (alternative),SR 58 bridge,Black Lake Tribs,44.48086,-75.58247,4,chem only,
+BLACK LAKE TRIBS,09-GRAC-0.8,Grass Creek,at CR 3 ,Black Lake Tribs,44.39646,-75.66673,4,chem only,
+ONEIDA LAKE TRIBS,07-FSHO-2.3,Fish Creek,"Higginsville rd, kemmerer sample from bridge",Oneida RAS,43.22289,-75.69930,4,kick,HUB
+ONEIDA LAKE TRIBS,07-ONEI-2.2,Oneida Creek,rt 31 bridge access from west and south. Probably not wadable,Oneida RAS,43.15427,-75.71816,4,kick,HUB
+ONEIDA LAKE TRIBS,07-SRAG-0.1,Canaseraga Creek,"upstream of Lake Rd, access by boat from Briggs Bay DEC launch",Oneida RAS,43.14528,-75.86412,4,kick,HUB
+ONEIDA LAKE TRIBS,07-CHIT-3.4,Chittenango Creek, At 31 bridge,Oneida RAS,43.15500,-75.97166,4,kick,HUB
+ONEIDA LAKE TRIBS,07-SCRB-0.1,Scriba Creek,"near fish hatchery upstream, park at hatchery",Oneida RAS,43.24841,-75.99866,4,kick,HUB
+PATROONS CREEK,13-PATS-1.8,Patroon Creek,"upstream of daylighting, at railroad crossing",Patroon Creek Daylighting,42.67266,-73.76461,1,kick,
+PATROONS CREEK,13-PATS-1.7,Patroon Creek,Daylighted portion,Patroon Creek Daylighting,42.67198,-73.76367,1,kick,
+PATROONS CREEK,13-PATS-1.5,Patroon Creek,Daylighted portion,Patroon Creek Daylighting,42.67144,-73.76036,1,kick,
+PATROONS CREEK,13-PATS-1.3,Patroon Creek,"just downstream of daylighting, before returning underground, between interstate and railway",Patroon Creek Daylighting,42.67174,-73.75699,1,kick,
+PATROONS CREEK,13-PATS-0.5,Patroon Creek,"Downstream, biosite",Patroon Creek Daylighting,42.66444,-73.74667,1,kick,
+WALLKILL,13-WALK-19,Wallkill River,Lazy River campground-20 m above Shawangunk confl.,Wallkill,41.68639,-74.16442,4,kick,LMAS/SMAS
+WALLKILL,13-WALK-44.4,Wallkill River,At Midway Road bridge,Wallkill,41.43879,-74.36565,4,kick,LMAS/SMAS
+WALLKILL,13-WALK-60.1,Wallkill River,Oil City Rd at USFWS Wildlife Refuge,Wallkill,41.28812,-74.53451,4,multiplate,LMAS/SMAS
+BELLINGER CREEK,Above 1.4 ,Bellinger Creek,Upstream reference,Bellinger Creek,43.035093,-74.999879,1,kick,MRBP
+BELLINGER CREEK,1.3,Bellinger Creek,Upper concrete section,Bellinger Creek,43.033519,-74.998828,1,kick,MRBP
+BELLINGER CREEK,0.95 or 0.8 ,Bellinger Creek,Top of lower concrete section,Bellinger Creek,43.029418,-74.997719,1,kick,MRBP
+BELLINGER CREEK,0.6,Bellinger Creek,Bottom of lower concrete section,Bellinger Creek,43.024005,-74.997916,1,kick,MRBP
+BELLINGER CREEK,Below 0.4,Bellinger Creek,Downstream reference,Bellinger Creek,43.022342,-75.000505,1,kick,MRBP
+RAMAPO,15-RAMA_T25_3-0.2,Unnamed Tributary to Ramapo,downstream of KJ outfall at Bakertown Rd,Ramapo,41.335254,-74.16158,3,chem only,
+RAMAPO,15-RAMA-18.6,Ramapo River,Freeland Street,Ramapo,41.323767,-74.172304,3,kick,
+RAMAPO,15-RAMA-16.8,Ramapo River,20 m below River Rd. bridge,Ramapo,41.31222,-74.14889,3,kick,
+RAMAPO,15-RAMA-16.7,Ramapo River,5 m below Monroe Park pond,Ramapo,41.31028,-74.14361,3,chem only,
+RAMAPO,15-RAMA-16.5,Ramapo River,50 m downstream of Route 17 bridge,Ramapo,41.31,-74.14278,3,chem only,
+RAMAPO,15-RAMA-16.1,Ramapo River,at Nepera plant bridge,Ramapo,41.30722,-74.13695,3,kick,
+RAMAPO,15-RAMA-13.3,Ramapo River,0.2 mi south of Arden bridge; end of Water St,Ramapo,41.27361,-74.15334,3,kick,
+RAMAPO,15-RAMA-11.8,Ramapo River,"adjacent to State Hwy 17, downstream of Warwick Brook",Ramapo,41.250157,-74.168322,3,kick,
+RAMAPO,15-RAMA-4.8,Ramapo River,Seven Lakes D,Ramapo,41.1621,-74.1887,3,kick,
+RAMAPO,15-RAMA-1.1,Ramapo River,50 m above 4th St. bridge,Ramapo,41.12516,-74.16455,3,kick,
+FINGER LAKES Advanced Monitoring Tributaries,07-OWLI-3.0,Owasco Inlet,USGS Gage at Rte. 38,HABs Advanced Monitoring,42.71600,-76.43700,"2 (1b,1e)",kick,
+FINGER LAKES Advanced Monitoring Tributaries,07-DUCH-0.3,Dutch Hollow Brook,East Lake Rd,HABs Advanced Monitoring,42.86400,-76.50800,"2 (1b,1e)",kick,
+FINGER LAKES Advanced Monitoring Tributaries,07-SCKR-0.1,Sucker Brook,100m upstream of SR 38A,HABs Advanced Monitoring,42.90200,-76.52700,"3 (2b, 1e)",kick,
+FINGER LAKES Advanced Monitoring Tributaries,07-VENE-0.3,Veness Brook,West off SR 38,HABs Advanced Monitoring,42.88800,-76.54800,"3 (2b, 1e)",low gradient,
+FINGER LAKES Advanced Monitoring Tributaries,07-OWAL_T46-0.1,Unnamed Trib to Owasco Lake,Off Fire Lane near SR 38,HABs Advanced Monitoring,42.82400,-76.52100,"3 (2b, 1e)",kick,
+FINGER LAKES Advanced Monitoring Tributaries,07-OWAL_T9-0.1,Unnamed Trib to Owasco Lake,Off Widewaters Rd,HABs Advanced Monitoring,42.80500,-76.49100,"3 (2b, 1e)",kick,
+FINGER LAKES Advanced Monitoring Tributaries,07-BGST-0.1,Big Stream,At South Glenora Rd,HABs Advanced Monitoring,42.49000,-76.91430,"4 (3b, 1e)",kick,
+FINGER LAKES Advanced Monitoring Tributaries,07-KASH-0.3,Kashong Creek,at West Lake Rd,HABs Advanced Monitoring,42.76525,-76.97615,"4 (3b, 1e)",kick,
+FINGER LAKES Advanced Monitoring Tributaries,07-THOL-0.3,Tug Hollow Creek,SR 414 bridge,HABs Advanced Monitoring,42.42620,-76.87000,"4 (3b, 1e)",kick,
+FINGER LAKES Advanced Monitoring Tributaries,07-CATH-0.6,Catherine Creek,South Genesee St bridge,HABs Advanced Monitoring,42.32827,-76.84394,"4 (3b, 1e)",kick,
+FINGER LAKES Advanced Monitoring Tributaries,07-KEUK-0.1,Keuka Outlet,0.5m u.s. of mouth,HABs Advanced Monitoring,42.68200,-76.94900,"4 (3b, 1e)",non-wadeable,
+FINGER LAKES Advanced Monitoring Tributaries,07-MASH-0.1,Castle Creek,50m from trib mouth,HABs Advanced Monitoring,42.87300,-76.97300,"4 (3b, 1e)",kick,
+FINGER LAKES Advanced Monitoring Tributaries,07-GLNK-0.2,Glen Creek,Junction of McGee & Shannon Street,HABs Advanced Monitoring,42.37800,-76.86200,"4 (3b, 1e)",kick,
+FINGER LAKES Advanced Monitoring Tributaries,07-REED-0.1,Reeder Creek,East Lake Rd,HABs Advanced Monitoring,42.78589,-76.92806,"4 (3b, 1e)",low gradient,
+FINGER LAKES Advanced Monitoring Tributaries,07-SKAT_T2-0.1,Unnamed Tributary to Skaneateles Lake,East Lake Road,HABs Advanced Monitoring,42.92400,-76.40500,"4 (3b, 1e)",kick,
+FINGER LAKES Advanced Monitoring Tributaries,07-SKAT_T89-0.2,Unnamed Tributary to Skaneateles Lake,West Lake Rd bridge,HABs Advanced Monitoring,42.89800,-76.41900,"4 (3b, 1e)",kick,
+FINGER LAKES Advanced Monitoring Tributaries,07-DUCH-8.3,Dutch Hollow Brook,10 m above Old State Rd. bridge,HABs Advanced Monitoring,42.83200,-76.41200,"4 (3b, 1e)",kick,
+FINGER LAKES Advanced Monitoring Tributaries,07-GROU-1.5,Grout Brook,CR 101 at Sweeney Hill Rd bridge,HABs Advanced Monitoring,42.74200,-76.26500,"4 (3b, 1e)",kick,
+FINGER LAKES Advanced Monitoring Tributaries,07-SKAT_T93a-0.1,Unnamed Tributary to     Skaneateles Lake,Country Club foot bridge,HABs Advanced Monitoring,42.93000,-76.42800,"4 (3b, 1e)",kick,
+FINGER LAKES Advanced Monitoring Tributaries,07-SKAT_T5-0.1,Unnamed Tributary to     Skaneateles Lake,East Lake Rd bridge,HABs Advanced Monitoring,42.90400,-76.39400,"4 (3b, 1e)",kick,

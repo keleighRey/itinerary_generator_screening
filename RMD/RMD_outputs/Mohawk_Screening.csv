@@ -1,0 +1,76 @@
+"miles","time.65.mins","STATUS","SH_SITE_ID","SH_DESC","SH_LATITUDE","SH_LONGITUDE","team","date","order","hike","location","total_num_sites"
+0,0,NA,"HOME",NA,42.680982,-73.696676,1,2020-07-14,0,NA,"42.680982 , -73.696676",7
+43,47,"Long Term Trend","12-CAYA-4.7","40 m above Rt. 334 bridge, 1.9 mi. below STP",42.98667,-74.43027,1,2020-07-14,1,"","42.98667 , -74.43027",7
+5,6,"Unassessed","12-SPIT-2.3","hart rd.",43.022427,-74.507897,1,2020-07-14,2,"","43.022427 , -74.507897",7
+9,9,"Probabilistic","12-CAYA-15.4","5 m above West State St. Ext. bridge",43.06778,-74.35806,1,2020-07-14,3,"","43.06778 , -74.35806",7
+4,4,"Long Term Trend","12-MATT-0.4","20 m below O'Neil Rd.culverts",43.02028,-74.37527,1,2020-07-14,4,"","43.02028 , -74.37527",7
+12,13,"Long Term Trend/department interest","12-SCHU-5.3","30 upstream of Dunlap Rd bridge. Upstream of salt pile influence.",42.889896,-74.219497,1,2020-07-14,5,"","42.889896 , -74.219497",7
+1,1,"Long Term Trend/department interest","12-SCHU-4.8","Behind Florida Town Court on Ft Hunter Rd. DS of salt pile influence. Alternate location behind residence at 6124 Rt 30 (knock for persmission); 42.8929, -74.2213.",42.893463,-74.224261,1,2020-07-14,6,"","42.893463 , -74.224261",7
+0,0,NA,"HOME",NA,42.680982,-73.696676,1,2020-07-15,0,NA,"42.680982 , -73.696676",6
+92,100,"Probabilistic","12-DRCK-3.4","off Camroden Rd.",43.239825,-75.342237,1,2020-07-15,1,"","43.239825 , -75.342237",6
+7,8,"Long Term Trend","12-MOHK-136.0","150 yds. above River Rd. bridge",43.33944,-75.36583,1,2020-07-15,2,"","43.33944 , -75.36583",6
+1,1,"Reference","12-STRI-0.3","15 m below rte 46 bridge.",43.34639,-75.36833,1,2020-07-15,3,"","43.34639 , -75.36833",6
+4,5,"Reference","12-STRI-4.5","825 ft south off crill rd.",43.379,-75.309,1,2020-07-15,4,"","43.379 , -75.309",6
+11,11,"Reference","12-LYMA-3.8","west ava rd. bridge.",43.41695,-75.50368,1,2020-07-15,5,"","43.41695 , -75.50368",6
+0,0,NA,"HOME",NA,42.680982,-73.696676,1,2020-07-16,0,NA,"42.680982 , -73.696676",8
+69,75,"department interest","12-STBR-1.0","at Jerseyfield rd. Low Gradient. 1.5 sq mi drainage. Backup site to 12-BLCR-19.3.",43.278951,-74.774874,1,2020-07-16,2,"","43.278951 , -74.774874",8
+1,1,"department interest","12-HLVY-0.5","at Jerseyfield rd. Low Gradient. 0.7 sq mi drainage. 2nd backup site to 12-BLCR-19.3.",43.270874,-74.7779,1,2020-07-16,3,"","43.270874 , -74.7779",8
+1,1,"department interest","12-BLCR-19.3","at Jerseyfield rd. Low Gradient. 3.8 sq mi drainage.",43.26541,-74.778108,1,2020-07-16,4,"","43.26541 , -74.778108",8
+3,3,"Probabilistic/PWL","12-SPCK_T15_6-0.2","off jerseyfield rd. 1.3 km; PWL assess can be anywhere along the same stream if Probablistic site is unreachable.",43.22719,-74.786903,1,2020-07-16,5,"Yes","43.22719 , -74.786903",8
+7,8,"Reference","12-BEVK-2.5","5 m above beaver rd. bridge.",43.15306,-74.87944,1,2020-07-16,6,"","43.15306 , -74.87944",8
+12,13,"Reference","12-WINF-0.6","0.5 miles north off edick rd.",43.24,-74.684,1,2020-07-16,7,"","43.24 , -74.684",8
+8,9,"Probabilistic","12-SPRK-5.3","off powerhouse rd 400m",43.130203,-74.649373,1,2020-07-16,8,"Yes","43.130203 , -74.649373",8
+0,0,NA,"HOME",NA,42.680982,-73.696676,2,2020-07-14,0,NA,"42.680982 , -73.696676",6
+11,11,"Unassessed","12-MOHK_T5-0.1","PWL description: total length of selected tribs, from mouth to Lock 7",42.823154,-73.734912,2,2020-07-14,1,"","42.823154 , -73.734912",6
+6,6,"department interest","12-DWAS-7.2","ds of 146",42.86999,-73.81741,2,2020-07-14,2,"","42.86999 , -73.81741",6
+10,11,"Long Term Trend","12-POEN-1.9","Campbell Rd.; 250 m above culverts opp. BJs/OffMax",42.8075,-73.99333,2,2020-07-14,3,"","42.8075 , -73.99333",6
+8,9,"WAVE","12-LCKS-0.1","Lock 7 park",42.8019,-73.848,2,2020-07-14,4,"","42.8019 , -73.848",6
+4,4,"WAVE","12-SHAK-0.1","5 m above River Rd. bridge",42.77861,-73.79195,2,2020-07-14,5,"","42.77861 , -73.79195",6
+0,0,NA,"HOME",NA,42.680982,-73.696676,2,2020-07-15,0,NA,"42.680982 , -73.696676",6
+73,79,"Reference","12-CANW_S-6.3","mountain home rd.",43.39944,-74.74055,2,2020-07-15,1,"","43.39944 , -74.74055",6
+6,6,"Reference","12-BIGW-0.1","at haskell rd. bridge.",43.43743,-74.8309,2,2020-07-15,2,"","43.43743 , -74.8309",6
+6,6,"Probabilistic","12-CANW_T69-1.1","300 m off Rt 8",43.382669,-74.900615,2,2020-07-15,3,"Yes","43.382669 , -74.900615",6
+6,7,"Unassessed","12-ASHC-2.8","at sr 8 bridge.",43.31827,-74.97597,2,2020-07-15,4,"","43.31827 , -74.97597",6
+3,3,"Reference","12-CANW-41.1","above harvey bridge rd.",43.35444,-74.99805,2,2020-07-15,5,"","43.35444 , -74.99805",6
+0,0,NA,"HOME",NA,42.680982,-73.696676,2,2020-07-16,0,NA,"42.680982 , -73.696676",6
+31,34,"Probabilistic","12-FOX-1.1","100 m below Rte 30 bridge - at Fox Creek Park",42.67889,-74.30473,2,2020-07-16,1,"","42.67889 , -74.30473",6
+18,19,"Reference","12-WESK_T5-0.1","cr 43.",42.499,-74.535,2,2020-07-16,2,"","42.499 , -74.535",6
+12,13,"Unassessed","12-RICW-0.4","smith rd.",42.652215,-74.624362,2,2020-07-16,3,"","42.652215 , -74.624362",6
+6,7,"Probabilistic","12-WESC-14.6","100 m above West Creek Rd bridge",42.733247,-74.617944,2,2020-07-16,4,"Yes","42.733247 , -74.617944",6
+11,12,"Unassessed","12-COBL-T3_2-2.8","0.25 across farm field along field road, will need to ask for access. PWL description: stream and tribs, above Cobleskill Water Supply",42.660134,-74.441694,2,2020-07-16,5,"","42.660134 , -74.441694",6
+0,0,NA,"HOME",NA,42.680982,-73.696676,3,2020-07-14,0,NA,"42.680982 , -73.696676",7
+20,22,"WAVE","12-PLOT-0.2","rt 5s bridge",42.84583,-74.0125,3,2020-07-14,1,"","42.84583 , -74.0125",7
+39,42,"Long Term Trend","12-CANE-0.5","20 m above Rt. 5 bridge",43.00583,-74.74167,3,2020-07-14,2,"","43.00583 , -74.74167",7
+6,7,"Unassessed","12-OTSO-1.1","100 m downstream of freysbush rd. (cr 79) bridge.",42.9268,-74.6969,3,2020-07-14,3,"","42.9268 , -74.6969",7
+6,7,"Long Term Trend","12-CAJO-5.1","40 m above McEwan Rd. bridge",42.87611,-74.60333,3,2020-07-14,4,"","42.87611 , -74.60333",7
+6,6,"Probabilistic","12-OTSO_T3-1.2","upstream of Freysbush Rd.",42.919293,-74.692776,3,2020-07-14,4,"Yes","42.919293 , -74.692776",7
+7,8,"Long Term Trend","12-BRIM-0.5","West Ames Rd. bridge",42.83972,-74.61,3,2020-07-14,5,"","42.83972 , -74.61",7
+0,0,NA,"HOME",NA,42.680982,-73.696676,3,2020-07-15,0,NA,"42.680982 , -73.696676",6
+73,79,"Unassessed","12-BLRS-0.2","1.0 mile east off cr 47.",43.241043,-74.906346,3,2020-07-15,1,"","43.241043 , -74.906346",6
+7,7,"Unassessed","12-CANW_T39-0.6","PWL description: stream and tribs, above Newport water supply intake",43.205528,-75.022942,3,2020-07-15,2,"","43.205528 , -75.022942",6
+2,3,"Long Term Trend","12-CANW-20.3","Above Rte 200 bridge",43.21868,-75.0576,3,2020-07-15,3,"","43.21868 , -75.0576",6
+7,7,"Probabilistic","12-NMIL-13.9","@CR 91 bridge",43.2159,-75.1794,3,2020-07-15,4,"","43.2159 , -75.1794",6
+10,10,"Long Term Trend","12-SAUQ-1.7","end of Greenman Ave; Farm & Family Ctr.parking lot",43.11306,-75.29444,3,2020-07-15,5,"","43.11306 , -75.29444",6
+0,0,NA,"HOME",NA,42.680982,-73.696676,3,2020-07-16,0,NA,"42.680982 , -73.696676",5
+37,40,"Probabilistic","12-SCHO_T93_b-1.8","upstream of Clauverwie Rd",42.53298,-74.387244,3,2020-07-16,1,"Yes","42.53298 , -74.387244",5
+15,16,"Reference","12-BATV_T10-3.7","se off cr 10. unnamed tributary to batavia kill (2).",42.345565,-74.281966,3,2020-07-16,2,"","42.345565 , -74.281966",5
+3,4,"Long Term Trend","12-BATV-10.1","10 m below Co. Rt. 12 bridge, South St.",42.30278,-74.2725,3,2020-07-16,3,"","42.30278 , -74.2725",5
+8,8,"Reference","12-BATV_T26-0.1","cr 56. unnamed tributary to batavia kill (5).",42.292032,-74.129358,3,2020-07-16,4,"","42.292032 , -74.129358",5
+0,0,NA,"HOME",NA,42.680982,-73.696676,4,2020-07-14,0,NA,"42.680982 , -73.696676",6
+32,35,"Probabilistic","12-SCHO_T23-1.0","downstream of Youngs Corners Rd.",42.878114,-74.261566,4,2020-07-14,1,"","42.878114 , -74.261566",6
+10,11,"Probabilistic","12-MOHK_T59_1-3.0","upstream of Baldwin Rd",42.934113,-74.093519,4,2020-07-14,2,"","42.934113 , -74.093519",6
+5,6,"Long Term Trend","12-ALPL-16.1","Below Route 67",42.9745,-74.0199,4,2020-07-14,3,"","42.9745 , -74.0199",6
+3,3,"WAVE","12-ALPL_T11-2.1","Unnamed Trib to Aplaus kill",42.951982,-73.985737,4,2020-07-14,4,"","42.951982 , -73.985737",6
+6,7,"Unassessed","12-VRKL-0.1","PWL description: total length of selected tribs, Schdy to Pattersonville",42.886726,-74.052164,4,2020-07-14,5,"","42.886726 , -74.052164",6
+0,0,NA,"HOME",NA,42.680982,-73.696676,4,2020-07-15,0,NA,"42.680982 , -73.696676",6
+76,82,"Unassessed","12-MOYR_T2-0.1","cr 171; a trib was sampled by mistake. should have been moyer ck.",43.024833,-75.106771,4,2020-07-15,1,"","43.024833 , -75.106771",6
+15,16,"Long Term Trend","12-ORSK-0.9","30 m below Utica St. bridge",43.15556,-75.33167,4,2020-07-15,2,"","43.15556 , -75.33167",6
+5,6,"Long Term Trend","12-SIXM-1.6","60 m below Rickmyer Rd. bridge",43.21139,-75.3825,4,2020-07-15,3,"","43.21139 , -75.3825",6
+3,3,"Long Term Trend","12-MOHK-124.0","50 m below Floyd Ave. bridge",43.21778,-75.43166,4,2020-07-15,4,"","43.21778 , -75.43166",6
+20,22,"Unassessed","12-BARK-0.6","barker rd.",42.935398,-75.48748,4,2020-07-15,5,"","42.935398 , -75.48748",6
+0,0,NA,"HOME",NA,42.680982,-73.696676,4,2020-07-16,0,NA,"42.680982 , -73.696676",6
+41,44,"Unassessed","12-ALLN-1.8","PWL description: total length of selected tribs to Allen Brook",42.20993,-74.153927,4,2020-07-16,1,"yes","42.20993 , -74.153927",6
+3,3,"Unassessed","12-WBECK-0.1","Plateau Mountain Rd.",42.186186,-74.189888,4,2020-07-16,2,"","42.186186 , -74.189888",6
+2,2,"Unassessed","12-SHAN-0.1","30 m above confluence with schoharie creek.",42.2067,-74.2075,4,2020-07-16,3,"","42.2067 , -74.2075",6
+2,3,"Long Term Trend","12-SCHO-79.0","100 m above Deming Rd. bridge",42.21639,-74.24277,4,2020-07-16,4,"","42.21639 , -74.24277",6
+8,9,"Probabilistic","12-BATV-14.8","just off rt 23",42.295294,-74.349868,4,2020-07-16,5,"","42.295294 , -74.349868",6

@@ -1,0 +1,297 @@
+---
+title: "`r params$trip_name`"
+author: 'NYSDEC SMAS : Keleigh Reynolds'
+date: "`r Sys.Date()`"
+output: word_document
+params:
+      teams: 4
+      days: 3
+      file.df: "ErieNiag_2020_9_8_redo.csv"
+      trip_name: "Erie_Niag_Screening"
+      hab_number_start: 484
+      team_1: "Gavin/Keleigh"
+      team_2: "Charlie/Jeff"
+      team_3: "Meredith/Brian"
+      team_4: "Wyndle/Archer"
+      print_team: 1
+      overnights: FALSE
+      hotel_coords: "hotels.csv"
+      added_drive_times_day_end: FALSE
+---
+
+```{r setup, include=FALSE,message=FALSE,warning=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(dplyr)
+library(knitr)
+library(flextable)
+#insert your file name, number of teams and days here
+
+#file.df<-"ErieNiag_2020_9_8_redo.csv"
+#teams<-4
+#days<-3
+#trip_name<-"ErieNiag_Screening"
+#shipping<-data.frame("Location"= c("ALS Courier Service: The ALS address for drop-off is 23A Walker Way, Colonie, The door access code is 6215","Albany,24 Avis Dr, Latham, NY 12110"),"days"=c("Day 2 and 3","Day 1","teams"=))
+
+#hab_number_start<-484
+
+
+#read in the raw data
+file.path=file.path(here::here(),
+          "data",
+          params$file.df)
+
+file.path.ups=file.path(here::here(),
+                        "data",
+                        "ups_ont.csv")
+
+sites<-read.csv(file.path,stringsAsFactors = FALSE)
+
+shipping<-read.csv(file.path.ups,stringsAsFactors = FALSE)
+
+
+#take out the blank ones
+sites<-sites %>% 
+  subset(!is.na(SH_LATITUDE))
+
+max.sites<-nrow(sites)
+
+```
+
+## Itinerary for Team  `r params$print_team`
+
+This trip has `r max.sites ` sites to visit total.
+
+There are `r params$teams ` teams in this sampling event.
+Each team will do `r max.sites/params$teams ` sites over `r params$days `days. So that's `r (max.sites/params$teams)/params$days ` sites per day per team.
+
+
+1-BLUE: `r params$team_1`     
+2-RED: `r params$team_2`  
+3-GREEN: `r params$team_3`      
+4-PURPLE: `r params$team_4`  
+
+
+## Types of sites
+
+This is what the site breakdown looks like for the `r params$trip_name ` trip:
+
+```{r,message=FALSE,warning=FALSE}
+m.df<-sites %>% 
+  group_by(STATUS) %>% 
+  summarise(number=n())
+
+library(flextable)
+
+table.df<-function(df){
+  tab<-flextable(df) %>% 
+    autofit() %>% 
+    theme_vanilla()
+  return(tab)
+  }
+
+table.df(m.df)
+
+```
+\newpage
+  
+Broken down by team:  
+
+```{r, echo = FALSE, warning= FALSE,message=FALSE}
+teams.df<-sites %>% 
+  group_by(team,STATUS) %>% 
+  summarise(number=n())
+
+tab<-table.df(teams.df)
+ tab<-merge_v(tab, j = ~ team)
+tab
+
+```
+\newpage
+  
+```{r echo=FALSE,warning=FALSE,message=FALSE}
+#dist<-(dist*0.000621371)#this gets you miles between the points
+#now get travel time
+#dist<-(65/60)*dist#this assumes driving @ 65 mph, so it will be underestimate for short/non highway
+
+
+#clean up the sites table to get distances right.
+sites<-sites %>% 
+  group_by(team,date) %>% 
+  arrange(team,date,order)
+
+#insert home locations for each trip (this is Albany)
+sites.try<-sites %>% 
+   group_by(team,date) %>%
+   summarise(order = first(order)) %>%
+   mutate(SH_LATITUDE = 42.680982, SH_LONGITUDE =-73.696676,SH_SITE_ID="HOME",order = 0) %>% 
+   bind_rows(sites, .) %>% 
+   arrange(team,date,order)
+```
+
+```{r echo=FALSE,warning=FALSE,message=FALSE}
+
+if(params$overnights){
+  hotel<-read.csv(here::here(paste("data/hotels/",params$hotel_coords,sep = "")),stringsAsFactors = FALSE)
+
+sites.try.1<-merge(sites.try,hotel,by=c("date","order"),all.x=TRUE)
+
+sites.try.1$lat[is.na(sites.try.1$lat)] <- as.numeric(sites.try.1$SH_LATITUDE)[is.na(sites.try.1$lat)]
+
+sites.try.1$long[is.na(sites.try.1$long)] <- as.numeric(sites.try.1$SH_LONGITUDE)[is.na(sites.try.1$long)]
+
+sites.try.1<-sites.try.1 %>% 
+  select(!c(SH_LATITUDE,SH_LONGITUDE)) %>% 
+  rename(SH_LATITUDE=lat,
+         SH_LONGITUDE=long)
+
+sites.try<-sites.try.1 %>% 
+  arrange(team,date,order)
+
+}
+
+new.df<-sites.try %>% 
+  select(team,date,order,STATUS,SH_SITE_ID,SH_NAME,SH_DESC,SH_LATITUDE,SH_LONGITUDE,time_to_site,miles_to_site)
+
+#add new row for getting home for the day
+
+home<-new.df %>% 
+  group_by(team,date) %>% 
+  summarise(order=last(order)) %>% 
+  mutate(SH_SITE_ID="HOME_for_the_day",order = max(order)+1) %>% 
+   bind_rows(new.df, .) %>% 
+   arrange(team,date,order)
+
+file.path.s=file.path(here::here(),
+          "RMD/RMD_outputs/")
+          
+file.save<-paste(file.path.s,"/",params$trip_name,".csv",sep = "")
+
+write.csv(home,file.save,row.names = FALSE)
+
+
+#add the times to get home
+
+if(!params$added_drive_times_day_end){
+  stop(print(paste("Go to the RMD/RMD outputs folder and add in the times to get home.","filename: ",file.save,sep = "")))
+
+}
+
+```
+
+
+```{r ft.align="left",warning=FALSE, message=FALSE, echo=FALSE, results= 'asis'}
+
+sum.df<-read.csv(file.save,stringsAsFactors = FALSE)
+
+sum.df<-sum.df %>% 
+  group_by(team,date) %>% 
+  mutate(sites.num=case_when(
+    is.na(SH_NAME)~0,
+    TRUE~1
+  ))
+
+sum.df.tots<-sum.df %>% 
+  group_by(team,date) %>% 
+  summarise(n_sites=sum(sites.num),hours=(sum(time_to_site,na.rm = TRUE)/60)+(n_sites*1))
+
+sum.df.tots$hours<-round(sum.df.tots$hours,0)
+
+tab<-table.df(sum.df.tots)
+label=paste("Trip Totals (Estimated)")
+tab<-flextable::set_caption(tab,label)
+tab<-merge_v(tab, j = ~ team + date)
+tab<-fit_to_width(tab,max_width = 6)
+tab
+
+```
+
+
+\newpage
+
+## Itineraries
+
+Here are the intineraries.  Shipping Locations will be from `r length(unique(shipping$UPS.Location))` locations.
+
+First, basic trip information:
+
+```{r, echo = FALSE, warning= FALSE,message=FALSE,fig.width=7.5}
+knitr::kable(shipping)
+```
+\newpage
+
+```{r,ft.align="left",warning=FALSE, echo=FALSE, results= 'asis',message=FALSE}
+new.df<-sum.df %>% 
+  group_by(team,date) %>% 
+  mutate(location=paste(SH_LATITUDE,SH_LONGITUDE,sep=","))
+
+dates.l<-unique(new.df$date)
+
+  cat("  \n\n### Team ",params$print_team)
+  temp<-new.df[new.df$team %in% params$print_team, ]
+  
+  for (i in seq_along(dates.l)){
+    temp.short<-temp[temp$date %in% dates.l[i], ]
+    
+    temp.short1<-temp.short %>% 
+      select(team,date,order,SH_SITE_ID,SH_NAME,location,STATUS) %>% 
+      rename("Team"=team,
+             "Date"=date,
+             "Order"=order,
+             "Site"=SH_SITE_ID,
+             "Name"=SH_NAME,
+             "Lat/Long"=location,
+             "Type"=STATUS)
+    
+  tab<-table.df(temp.short1)
+   label=paste(dates.l[i])
+   tab<-flextable::set_caption(tab,label)
+  tab<-merge_v(tab, j = ~ Team + Date)
+  tab<-fit_to_width(tab,max_width = 7)
+  flextable::docx_value(tab)
+  cat("<br><br>")
+  
+  
+  temp.short2<-temp.short %>% 
+  select(team,date,order,SH_SITE_ID,miles_to_site,time_to_site) %>% 
+    mutate(hours=time_to_site/60) %>% 
+    mutate(hours=round(hours,1)) %>% 
+  rename("Team"=team,
+         "Date"=date,
+         "Order"=order,
+         "Site"=SH_SITE_ID,
+         "miles to site"=miles_to_site,
+         "Time(minutes)"=time_to_site,
+         "Time(hours)"=hours)
+
+  
+tab<-table.df(temp.short2)
+label=paste("Driving Estimates: ",dates.l[i])
+tab<-flextable::set_caption(tab,label)
+tab<-merge_v(tab, j = ~ Team + Date)
+tab<-fit_to_width(tab,max_width = 7)
+flextable::docx_value(tab)
+ cat("<br><br>")
+
+
+temp.short3<-temp.short[temp.short$date %in% dates.l[i], ] %>% 
+  select(team,date,order,SH_SITE_ID,SH_DESC) %>% 
+  rename("Team"=team,
+         "Date"=date,
+         "Order"=order,
+         "Site"=SH_SITE_ID,
+         "DESC"=SH_DESC)
+
+
+tab<-table.df(temp.short3)
+label=paste("Expanded Descriptions: ",dates.l[i])
+tab<-flextable::set_caption(tab,label)
+tab<-merge_v(tab, j = ~ Team + Date)
+tab<-fit_to_width(tab,max_width = 7)
+flextable::docx_value(tab)
+
+cat("\n\\newpage\n")
+
+  }
+
+
+```
